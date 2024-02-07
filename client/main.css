@@ -1,5 +1,89 @@
-body {
-  background-color: #faf8f1;
-  color: #0a1520;
-  font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Signika+Negative:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Pangolin', cursive; */
+  font-family: 'Signika Negative', sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+/* NAVBAR STYLING */
+div.container {
+  background-color: #303030;
+  height: auto;
+  margin: 20px;
+  border-radius: 16px;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+a.navbar-brand {
+  color: rgb(255, 255, 255);
+}
+
+img.d-inline-block.align-top {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+
+img.d-inline-block.align-top:hover {
+  box-shadow: 1px 1px 5px rgb(139, 23, 23);
+}
+
+button.navbar-toggler {
+  font-size: 1.5rem;
+  color: transparent;
+  background-color: rgb(105, 105, 105);
+  border: none;
+}
+
+button.navbar-toggler.collapsed {
+  background-color: rgb(117, 117, 117);
+}
+
+.nav-link.mx-lg-2,
+.navbar-brand.me-auto,
+.offcanvas-title {
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: rgb(139, 23, 23);
+  visibility: hidden;
+  transition: 0.6s ease-in-out;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+  visibility: visible;
+}
+
+a.nav-link.mx-lg-2.active {
+  color: rgb(158, 158, 158);
+}
+
+a.navbar-brand.active {
+  color: red;
 }
