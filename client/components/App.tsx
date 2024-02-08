@@ -1,6 +1,7 @@
 import Navigation from './Navbar'
 import About from './About'
 import Gallery from './Gallery'
+import Contact from './Contact'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navigation />
       <About />
       <Gallery />
+      <Contact />
       {/* </div> */}
     </>
   )
