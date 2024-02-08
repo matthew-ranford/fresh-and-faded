@@ -1,9 +1,11 @@
-import CollapsibleExample from './Navbar'
+import Navigation from './Navbar'
+import About from './About'
 
 function App() {
   return (
     <div>
-      <CollapsibleExample />
+      <Navigation />
+      <About />
       {/* <img
         src="client/styles/images/barbershop-logo.png"
         width="500px"
