@@ -16,7 +16,7 @@
 
 /* NAVBAR STYLING */
 div.container {
-  background-color: #303030;
+  background-color: #202020;
   height: auto;
   margin: 20px;
   border-radius: 16px;
@@ -99,7 +99,13 @@ img {
   height: 100vh;
 }
 
-/* 
-.background {
+/* BACKGROUND BODY */
+/* .background {
   background-color: black;
 } */
+
+/* ICONS CONTACT */
+div.col-2 {
+  /* color: white; */
+  color: black;
+}

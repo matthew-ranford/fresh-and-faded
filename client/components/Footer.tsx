@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col'
 function Footer() {
   return (
     <Container fluid="md">
-      <Row className="text-center justify-content-center mb-3">
+      <Row className="text-center justify-content-center pb-3">
         <Col xs={2}>
           {/* <span className="input-group-text"> */}
           <i className="bi bi-facebook display-5"></i>
