@@ -109,3 +109,10 @@ div.col-2 {
   /* color: white; */
   color: black;
 }
+
+/* LOCATION SECTION */
+@media (max-width: 600px) {
+  iframe {
+    width: 100%;
+  }
+}

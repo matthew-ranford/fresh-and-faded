@@ -2,6 +2,7 @@ import Navigation from './Navbar'
 import About from './About'
 import Gallery from './Gallery'
 import Contact from './Contact'
+import Location from './Location'
 import Footer from './Footer'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Gallery />
       <Contact />
+      <Location />
       <Footer />
       {/* </div> */}
     </>
