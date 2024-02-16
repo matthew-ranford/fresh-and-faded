@@ -1,4 +1,4 @@
-# Fresh & Faded
+# Fresh & Faded Barbershop 
 
 ## Initial design in progress
 
