@@ -1,6 +1,7 @@
 # Fresh & Faded Barbershop 
 
 ## Initial design in progress
+- Working branch is currently V2
 
 ## Packages Included
 
