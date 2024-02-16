@@ -8,9 +8,17 @@ function About() {
           <div className="row justify-content-center align-items-center">
             <div className="col-md-7 d-md-block">
               <motion.img
-                initial={{ x: -100 }}
+                initial={{ x: -100, opacity: 0 }}
                 transition={{ ease: 'linear', duration: 1.5 }}
-                animate={{ x: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                whileHover={{ scale: 1.1 }}
+                drag
+                dragConstraints={{
+                  top: -20,
+                  left: -20,
+                  right: 20,
+                  bottom: 20,
+                }}
                 className="img-fluid"
                 src="client/styles/images/barbershop-logo.png"
                 alt="Barbershop card"
@@ -18,9 +26,9 @@ function About() {
             </div>
             <div className="col-md-5 text-center text-md-start">
               <motion.div
-                initial={{ x: 100 }}
+                initial={{ x: 100, opacity: 0 }}
                 transition={{ ease: 'linear', duration: 1.5 }}
-                animate={{ x: 0 }}
+                animate={{ x: 0, opacity: 1 }}
               >
                 <h1>
                   <div className="display-4 text-primary">
