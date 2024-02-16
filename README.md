@@ -1,4 +1,6 @@
-# React Boilerplate
+# Fresh & Faded
+
+## Initial design in progress
 
 ## Packages Included
 
