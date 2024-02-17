@@ -9,7 +9,7 @@ function About() {
             <div className="col-md-7 d-md-block">
               <motion.img
                 initial={{ x: -100, opacity: 0 }}
-                transition={{ ease: 'linear', duration: 1.5 }}
+                transition={{ ease: 'linear', duration: 2.5 }}
                 animate={{ x: 0, opacity: 1 }}
                 whileHover={{ scale: 1.1 }}
                 drag
@@ -27,7 +27,7 @@ function About() {
             <div className="col-md-5 text-center text-md-start">
               <motion.div
                 initial={{ x: 100, opacity: 0 }}
-                transition={{ ease: 'linear', duration: 1.5 }}
+                transition={{ ease: 'linear', duration: 2.5 }}
                 animate={{ x: 0, opacity: 1 }}
               >
                 <h1>
