@@ -1,7 +1,12 @@
 # Fresh & Faded Barbershop 
 
-## Initial design in progress
+## Initial Design In Progress
 - Working branch is currently V2
+
+## New Technologies I'm Trialing
+- Bootstrap
+- React Bootstrap 
+- Framer-Motion 
 
 ## Packages Included
 
