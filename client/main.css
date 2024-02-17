@@ -16,7 +16,7 @@
 
 /* NAVBAR STYLING */
 div.container {
-  background-color: #202020;
+  background-color: #525252;
   height: auto;
   margin: 20px;
   border-radius: 16px;
@@ -97,9 +97,9 @@ button.navbar-toggler.collapsed {
 } */
 
 /* BACKGROUND BODY */
-/* .background {
-  background-color: black;
-} */
+.background {
+  background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
 
 /* ICONS CONTACT */
 div.col-2 {

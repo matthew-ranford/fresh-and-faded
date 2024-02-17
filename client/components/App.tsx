@@ -16,7 +16,10 @@ function App() {
         <motion.div
           initial={{ x: -500, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ ease: 'linear', duration: 2.5 }}
+          transition={{
+            ease: 'linear',
+            duration: 2.5,
+          }}
         >
           <Gallery />
           <Contact />
