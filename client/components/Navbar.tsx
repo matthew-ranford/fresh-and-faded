@@ -9,6 +9,10 @@ const containerVariants = {
   },
   visible: {
     y: 0,
+    transition: {
+      ease: 'linear',
+      duration: 2,
+    },
   },
 }
 
@@ -25,10 +29,6 @@ function Navigation() {
             <motion.img
               variants={containerVariants}
               initial="hidden"
-              transition={{
-                ease: 'linear',
-                duration: 2,
-              }}
               animate="visible"
               src="https://scontent.fpmr1-1.fna.fbcdn.net/v/t1.18169-9/15698060_222415818208286_2851917130035870513_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7a1959&_nc_ohc=IrQt0O2YF5AAX_aBSgV&_nc_ht=scontent.fpmr1-1.fna&oh=00_AfBbRPOveThPJeJK975YRvu5igMi8wv1rDPvJllXGljQ2g&oe=65ECF1B3"
               width="65"
@@ -41,10 +41,6 @@ function Navigation() {
             <motion.div
               variants={containerVariants}
               initial="hidden"
-              transition={{
-                ease: 'linear',
-                duration: 2,
-              }}
               animate="visible"
             >
               Fresh & Faded
@@ -57,10 +53,6 @@ function Navigation() {
                 <motion.div
                   variants={containerVariants}
                   initial="hidden"
-                  transition={{
-                    ease: 'linear',
-                    duration: 2,
-                  }}
                   animate="visible"
                   whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
                 >
@@ -71,10 +63,6 @@ function Navigation() {
                 <motion.div
                   variants={containerVariants}
                   initial="hidden"
-                  transition={{
-                    ease: 'linear',
-                    duration: 2,
-                  }}
                   animate="visible"
                   whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
                 >
@@ -85,10 +73,6 @@ function Navigation() {
                 <motion.div
                   variants={containerVariants}
                   initial="hidden"
-                  transition={{
-                    ease: 'linear',
-                    duration: 2,
-                  }}
                   animate="visible"
                   whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
                 >
@@ -99,10 +83,6 @@ function Navigation() {
                 <motion.div
                   variants={containerVariants}
                   initial="hidden"
-                  transition={{
-                    ease: 'linear',
-                    duration: 2,
-                  }}
                   animate="visible"
                   whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
                 >
