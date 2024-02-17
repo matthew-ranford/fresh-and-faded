@@ -1,5 +1,13 @@
 import { motion } from 'framer-motion'
 
+const buttonHoverVariant = {
+  hover: {
+    scale: [1, 1.1, 1, 1.1, 1, 1.1, 1],
+    textShadow: '0px 0px 8px rgb(255, 255, 255)',
+    boxShadow: '0px 0px 8px rgb(255, 255, 255)',
+  },
+}
+
 function Contact() {
   return (
     <>
@@ -72,11 +80,8 @@ function Contact() {
 
                 <div className="mb-4 text-center">
                   <motion.a
-                    whileHover={{
-                      scale: 1.1,
-                      textShadow: '0px 0px 8px rgb(255, 255, 255)',
-                      boxShadow: '0px 0px 8px rgb(255, 255, 255)',
-                    }}
+                    variants={buttonHoverVariant}
+                    whileHover="hover"
                     className="btn btn-primary"
                     type="submit"
                     href="mailto: matt.ranford16@gmail.com"
