@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion'
+
 function Contact() {
   return (
     <>
@@ -69,13 +71,18 @@ function Contact() {
                 </div>
 
                 <div className="mb-4 text-center">
-                  <a
+                  <motion.a
+                    whileHover={{
+                      scale: 1.1,
+                      textShadow: '0px 0px 8px rgb(255, 255, 255)',
+                      boxShadow: '0px 0px 8px rgb(255, 255, 255)',
+                    }}
                     className="btn btn-primary"
                     type="submit"
                     href="mailto: matt.ranford16@gmail.com"
                   >
                     Submit
-                  </a>
+                  </motion.a>
                 </div>
               </form>
             </div>

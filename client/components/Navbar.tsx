@@ -41,6 +41,7 @@ function Navigation() {
                   initial={{ y: -500 }}
                   transition={{ ease: 'linear', duration: 2.5 }}
                   animate={{ y: 0 }}
+                  whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
                 >
                   About
                 </motion.div>
@@ -50,6 +51,7 @@ function Navigation() {
                   initial={{ y: -500 }}
                   transition={{ ease: 'linear', duration: 2.5 }}
                   animate={{ y: 0 }}
+                  whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
                 >
                   Gallery
                 </motion.div>
@@ -59,6 +61,7 @@ function Navigation() {
                   initial={{ y: -500 }}
                   transition={{ ease: 'linear', duration: 2.5 }}
                   animate={{ y: 0 }}
+                  whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
                 >
                   Booking
                 </motion.div>
@@ -68,6 +71,7 @@ function Navigation() {
                   initial={{ y: -500 }}
                   transition={{ ease: 'linear', duration: 2.5 }}
                   animate={{ y: 0 }}
+                  whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
                 >
                   Contact
                 </motion.div>

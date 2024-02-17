@@ -37,6 +37,7 @@ img.d-inline-block.align-top {
 }
 
 img.d-inline-block.align-top:hover {
+  transition: 0.5s ease-in-out;
   box-shadow: 1px 1px 5px rgb(139, 23, 23);
 }
 
@@ -81,13 +82,9 @@ button.navbar-toggler.collapsed {
   visibility: visible;
 }
 
-a.nav-link.mx-lg-2.active {
-  color: rgb(158, 158, 158);
-}
-
-a.navbar-brand.active {
-  color: red;
-}
+/* a.nav-link.mx-lg-2.active {
+  color: blue;
+} */
 
 /* ABOUT SECTION STYLING */
 /* .container-lg {
