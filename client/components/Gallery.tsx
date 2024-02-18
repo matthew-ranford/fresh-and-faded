@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 function Gallery() {
   return (
     <>
-      <section className="gallery-section mt-3" id="gallery">
+      <section className="gallery-section mt-5" id="gallery">
         <Carousel className="bg-dark">
           <Carousel.Item interval={1000}>
             <img

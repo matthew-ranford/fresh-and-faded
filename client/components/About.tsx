@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 function About() {
   return (
     <>
-      <section className="about-section" id="about">
+      <section className="about-section mb-5" id="about">
         <div className="container-lg ">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-7 d-md-block">

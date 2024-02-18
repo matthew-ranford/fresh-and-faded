@@ -6,6 +6,7 @@ import Location from './Location'
 import Footer from './Footer'
 
 import { motion } from 'framer-motion'
+import Services from './Services'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           }}
         >
           <Gallery />
+          <Services />
           <Contact />
           <Location />
           <Footer />
