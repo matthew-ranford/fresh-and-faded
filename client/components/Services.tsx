@@ -100,14 +100,169 @@ function Services() {
             <Card.Title className="text-primary display-5 text-center">
               Hair
             </Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the cards content.
+            <Card.Text className="text-center">
+              Take a look at some of our current hair services
             </Card.Text>
-            <Accordion defaultActiveKey="1">
-              <Accordion.Item eventKey="1">
-                <Accordion.Header>Accordion Item #1</Accordion.Header>
-                <Accordion.Body>Lorem ipsum dolor sit amet.</Accordion.Body>
+            <Accordion defaultActiveKey="14">
+              <Accordion.Item eventKey="14">
+                <Accordion.Header>Fathers Special</Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $70
+                </Accordion.Body>
+                <Accordion.Body>45 minutes</Accordion.Body>
+                <Accordion.Body>
+                  Any hair cut along with a basic cut throat shave and product
+                  to go with you hair cut style (good voucher option)
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="15">
+                <Accordion.Header>Men's Re Style</Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $45
+                </Accordion.Body>
+                <Accordion.Body>30 minutes</Accordion.Body>
+                <Accordion.Body>
+                  This service is for anyone wanting a whole new re style of
+                  their hair
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="16">
+                <Accordion.Header>Toddle cut 0-4</Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $28
+                </Accordion.Body>
+                <Accordion.Body>25 minutes</Accordion.Body>
+                <Accordion.Body>
+                  A good amount of time and patience for the cut. We have time
+                  to get through the toddler tantrums, energy and excitement to
+                  get the cut done hopefully. We all know how toddlers can be!
+                </Accordion.Body>
+                <Accordion.Body>
+                  We supply toy ride on cars and motorbikes for the kids to play
+                  on and also kids channels on sky to keep them occupied. (phone
+                  or iPad also good to keep kids occupied) We have young kids of
+                  our own so we know how it goes with kids 😊
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="17">
+                <Accordion.Header>Zero All Over</Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $15
+                </Accordion.Body>
+                <Accordion.Body>10 minutes</Accordion.Body>
+                <Accordion.Body>Standard zero all over</Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="18">
+                <Accordion.Header>Skin Fade (Kids & Men)</Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $47
+                </Accordion.Body>
+                <Accordion.Body>40 minutes</Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="19">
+                <Accordion.Header>Head Blade Shave</Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $30
+                </Accordion.Body>
+                <Accordion.Body>15 minutes</Accordion.Body>
+                <Accordion.Body>
+                  Clipped zero and straight razored off, hot towel and
+                  moisturiser after
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="20">
+                <Accordion.Header>Women's Undercut</Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $33
+                </Accordion.Body>
+                <Accordion.Body>20 minutes</Accordion.Body>
+                <Accordion.Body>
+                  Women's undercut, includes lines and some designs
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="21">
+                <Accordion.Header>Kid's Basic Cut </Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $25
+                </Accordion.Body>
+                <Accordion.Body>15 minutes</Accordion.Body>
+                <Accordion.Body>
+                  Kindy/Daycare children through to year 8. One clipper, short
+                  back and sides, trim on top
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="22">
+                <Accordion.Header>Kid's Style Cut</Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $30
+                </Accordion.Body>
+                <Accordion.Body>30 minutes</Accordion.Body>
+                <Accordion.Body>
+                  Kindy/Daycare children through to year 8. Kids basic fade,
+                  zero fade lines and designs
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="23">
+                <Accordion.Header>Gold Card Working Senior</Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $25
+                </Accordion.Body>
+                <Accordion.Body>15 minutes</Accordion.Body>
+                <Accordion.Body>Working senior basic cut</Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="24">
+                <Accordion.Header>
+                  Gold Card Senior (not working)
+                </Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $20
+                </Accordion.Body>
+                <Accordion.Body>10 minutes</Accordion.Body>
+                <Accordion.Body>
+                  Non working senior 65+ (gold card holder) Basic cut. Add a
+                  Basic Beard trim for $5 extra
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="25">
+                <Accordion.Header>Multiple Clipper Cut</Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $27
+                </Accordion.Body>
+                <Accordion.Body>20 minutes</Accordion.Body>
+                <Accordion.Body>More than one clipper length</Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="26">
+                <Accordion.Header>Clipper Cut</Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $22
+                </Accordion.Body>
+                <Accordion.Body>10 minutes</Accordion.Body>
+                <Accordion.Body>
+                  One clipper length all over, tapper at back, line up around
+                  ears and neck
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="27">
+                <Accordion.Header>
+                  Men's Basic Fade or Zero Fade
+                </Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $40
+                </Accordion.Body>
+                <Accordion.Body>30 minutes</Accordion.Body>
+                <Accordion.Body>
+                  Year 9 - 65 years. Basic fade/Zero fade or Re-Style
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="28">
+                <Accordion.Header>Men's Basic Cut</Accordion.Header>
+                <Accordion.Body className="text-center text-primary">
+                  NZ $35
+                </Accordion.Body>
+                <Accordion.Body>15 minutes</Accordion.Body>
+                <Accordion.Body>
+                  Year 9 - 65 years. One clipper back and sides, trim on top
+                </Accordion.Body>
               </Accordion.Item>
             </Accordion>
             <Button variant="primary" className="mt-3">
