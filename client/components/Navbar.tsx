@@ -11,7 +11,7 @@ const containerVariants = {
     y: 0,
     transition: {
       ease: 'linear',
-      duration: 2,
+      duration: 2.5,
     },
   },
 }
@@ -67,6 +67,16 @@ function Navigation() {
                   whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
                 >
                   Gallery
+                </motion.div>
+              </Nav.Link>
+              <Nav.Link className="nav-link mx-lg-2" href="#services">
+                <motion.div
+                  variants={containerVariants}
+                  initial="hidden"
+                  animate="visible"
+                  whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
+                >
+                  Services
                 </motion.div>
               </Nav.Link>
               <Nav.Link className="nav-link mx-lg-2" href="#booking">

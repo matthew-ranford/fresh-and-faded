@@ -3,15 +3,15 @@ import { motion } from 'framer-motion'
 const buttonHoverVariant = {
   hover: {
     scale: [1, 1.1, 1, 1.1, 1, 1.1, 1],
-    textShadow: '0px 0px 8px rgb(255, 255, 255)',
-    boxShadow: '0px 0px 8px rgb(255, 255, 255)',
+    textShadow: '0px 0px 8px rgb(0, 0, 0)',
+    boxShadow: '0px 0px 8px rgb(0, 0, 0)',
   },
 }
 
 function Contact() {
   return (
     <>
-      <section id="contact" className="bg-dark">
+      <section id="contact" className="bg-light">
         <div className="container-lg text-primary">
           <div className="text-center pt-5">
             <h2>Get in Touch</h2>

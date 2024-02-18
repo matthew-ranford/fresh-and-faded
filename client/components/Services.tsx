@@ -4,92 +4,14 @@ import Accordion from 'react-bootstrap/Accordion'
 
 function Services() {
   return (
-    <section id="product" className="bg-dark pt-5 pb-5">
+    <section id="services" className="container-xxl  pt-5 pb-5">
+      <div className=" text-center">
+        <h2 className="text-primary">Services</h2>
+        <p className="lead text-secondary">
+          Checkout the services we offer before making a booking!
+        </p>
+      </div>
       <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-        <Card
-          style={{
-            width: '18rem',
-          }}
-        >
-          <Card.Img variant="top" src="client/styles/images/featured.png" />
-          <Card.Body>
-            <Card.Title className="text-primary display-5 text-center">
-              Featured
-            </Card.Title>
-            <Card.Text className="text-center">
-              Take a look at some of our current featured services
-            </Card.Text>
-            <Accordion defaultActiveKey="0">
-              <Accordion.Item eventKey="0">
-                <Accordion.Header>
-                  Men's Basic Fade or Zero Fade
-                </Accordion.Header>
-                <Accordion.Body className="text-center text-primary">
-                  NZ $40
-                </Accordion.Body>
-                <Accordion.Body>30 minutes</Accordion.Body>
-                <Accordion.Body>
-                  Year 9 - 65 years. Basic fade/Zero fade or Re-Style
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="1">
-                <Accordion.Header>Men's Basic Cut</Accordion.Header>
-                <Accordion.Body className="text-center text-primary">
-                  NZ $35
-                </Accordion.Body>
-                <Accordion.Body>15 minutes</Accordion.Body>
-                <Accordion.Body>
-                  Year 9 - 65 years. One clipper back and sides, trim on top
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="2">
-                <Accordion.Header>Kid's Basic Cut</Accordion.Header>
-                <Accordion.Body className="text-center text-primary">
-                  NZ $25
-                </Accordion.Body>
-                <Accordion.Body>15 minutes</Accordion.Body>
-                <Accordion.Body>
-                  Kindy/Daycare children through to year 8. One clipper, short
-                  back and sides, trim on top
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="3">
-                <Accordion.Header>Kid's Style Cut</Accordion.Header>
-                <Accordion.Body className="text-center text-primary">
-                  NZ $30
-                </Accordion.Body>
-                <Accordion.Body>30 minutes</Accordion.Body>
-                <Accordion.Body>
-                  Kindy/Daycare children through to year 8. Kids basic fade,
-                  zero fade lines and designs
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="4">
-                <Accordion.Header>
-                  Gold Card Senior (not working)
-                </Accordion.Header>
-                <Accordion.Body className="text-center text-primary">
-                  NZ $20
-                </Accordion.Body>
-                <Accordion.Body>10 minutes</Accordion.Body>
-                <Accordion.Body>
-                  Non working senior 65+ (gold card holder) Basic cut. Add a
-                  Basic Beard trim for $5 extra
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="5">
-                <Accordion.Header>Skin Fade (Kids & Men)</Accordion.Header>
-                <Accordion.Body className="text-center text-primary">
-                  NZ $47
-                </Accordion.Body>
-                <Accordion.Body>40 minutes</Accordion.Body>
-              </Accordion.Item>
-            </Accordion>
-            <Button variant="primary" className="mt-3">
-              Make Booking
-            </Button>
-          </Card.Body>
-        </Card>
         <Card
           style={{
             width: '18rem',
@@ -270,6 +192,92 @@ function Services() {
             </Button>
           </Card.Body>
         </Card>
+        <div className="card border-primary border-4">
+          <Card
+            style={{
+              width: '18rem',
+            }}
+          >
+            <Card.Img variant="top" src="client/styles/images/featured.png" />
+            <Card.Body>
+              <Card.Title className="card-header text-primary display-5 text-center mb-2">
+                Featured
+              </Card.Title>
+              <Card.Text className="text-center">
+                Take a look at some of our current featured services
+              </Card.Text>
+              <Accordion defaultActiveKey="0">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header>
+                    Men's Basic Fade or Zero Fade
+                  </Accordion.Header>
+                  <Accordion.Body className="text-center text-primary">
+                    NZ $40
+                  </Accordion.Body>
+                  <Accordion.Body>30 minutes</Accordion.Body>
+                  <Accordion.Body>
+                    Year 9 - 65 years. Basic fade/Zero fade or Re-Style
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="1">
+                  <Accordion.Header>Men's Basic Cut</Accordion.Header>
+                  <Accordion.Body className="text-center text-primary">
+                    NZ $35
+                  </Accordion.Body>
+                  <Accordion.Body>15 minutes</Accordion.Body>
+                  <Accordion.Body>
+                    Year 9 - 65 years. One clipper back and sides, trim on top
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="2">
+                  <Accordion.Header>Kid's Basic Cut</Accordion.Header>
+                  <Accordion.Body className="text-center text-primary">
+                    NZ $25
+                  </Accordion.Body>
+                  <Accordion.Body>15 minutes</Accordion.Body>
+                  <Accordion.Body>
+                    Kindy/Daycare children through to year 8. One clipper, short
+                    back and sides, trim on top
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="3">
+                  <Accordion.Header>Kid's Style Cut</Accordion.Header>
+                  <Accordion.Body className="text-center text-primary">
+                    NZ $30
+                  </Accordion.Body>
+                  <Accordion.Body>30 minutes</Accordion.Body>
+                  <Accordion.Body>
+                    Kindy/Daycare children through to year 8. Kids basic fade,
+                    zero fade lines and designs
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="4">
+                  <Accordion.Header>
+                    Gold Card Senior (not working)
+                  </Accordion.Header>
+                  <Accordion.Body className="text-center text-primary">
+                    NZ $20
+                  </Accordion.Body>
+                  <Accordion.Body>10 minutes</Accordion.Body>
+                  <Accordion.Body>
+                    Non working senior 65+ (gold card holder) Basic cut. Add a
+                    Basic Beard trim for $5 extra
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="5">
+                  <Accordion.Header>Skin Fade (Kids & Men)</Accordion.Header>
+                  <Accordion.Body className="text-center text-primary">
+                    NZ $47
+                  </Accordion.Body>
+                  <Accordion.Body>40 minutes</Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+              <Button variant="primary" className="mt-3">
+                Make Booking
+              </Button>
+            </Card.Body>
+          </Card>
+        </div>
         <Card
           style={{
             width: '18rem',
