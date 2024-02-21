@@ -1,63 +1,147 @@
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-
-import Stack from 'react-bootstrap/Stack'
-
 function Services() {
   return (
     <>
       <section id="services" className="container pt-5 pb-5">
-        <Container className="bg-light">
-          <Row>
-            <Col>
+        <div className=" text-center">
+          <h2 className="text-primary">Services</h2>
+          <p className="lead text-secondary">
+            Checkout the services we offer before making a booking!
+          </p>
+        </div>
+        <div className="container-lg ">
+          <div className="row justify-content-center align-items-center">
+            <div className="col-md-7 d-md-block">
               <img
                 className="img-fluid"
-                src="client/styles/images/haircut.png"
-                alt="Barbershop card"
+                src="client/styles/images/haircut1.png"
+                alt="barber giving haircut"
               />
-            </Col>
-            <Col className="pt-5  text-center">
-              Checkout some of our hair services
-            </Col>
-          </Row>
-        </Container>
-        <Container>
-          <Row>
-            <Col>Checkout some of our featured services</Col>
-            <Col>
+            </div>
+            <div className="col-md-5 text-center text-md-end">
+              <div>
+                <h1>
+                  <div className="display-5 text-primary">Haircut</div>
+                </h1>
+                <p className="lead my-4 text-secondary">
+                  Check out many of our hair services that we have on offer!
+                </p>
+                <div className="mb-4 text-end">
+                  <a
+                    className="btn btn-primary"
+                    type="submit"
+                    href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See Services!
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-lg ">
+          <div className="row justify-content-center align-items-center">
+            <div className="col-md-5 text-center text-md-start">
+              <h1>
+                <div className="display-5 text-primary">Featured</div>
+              </h1>
+              <p className="lead my-4 text-secondary">
+                Check out many of our featured services that we have on offer!
+              </p>
+              <div className="mb-4 text-start">
+                <a
+                  className="btn btn-primary"
+                  type="submit"
+                  href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  See Services!
+                </a>
+              </div>
+            </div>
+            <div
+              className="
+            col-md-7 d-md-block"
+            >
+              <div>
+                <img
+                  className="img-fluid"
+                  src="client/styles/images/featured.png"
+                  alt="barber giving haircut"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-lg ">
+          <div className="row justify-content-center align-items-center">
+            <div className="col-md-7 d-md-block">
               <img
                 className="img-fluid"
-                src="client/styles/images/featured.png"
-                alt="Barbershop card"
+                src="client/styles/images/beard1.png"
+                alt="barber giving haircut"
               />
-            </Col>
-          </Row>
-        </Container>
-        <Container>
-          <Row>
-            <Col>
-              <img
-                className="img-fluid"
-                src="client/styles/images/beard.png"
-                alt="Barbershop card"
-              />
-            </Col>
-            <Col>Checkout some of our beard services</Col>
-          </Row>
-        </Container>
-        <Container>
-          <Row>
-            <Col>Checkout some of our combo services</Col>
-            <Col>
-              <img
-                className="img-fluid"
-                src="client/styles/images/combo.png"
-                alt="Barbershop card"
-              />
-            </Col>
-          </Row>
-        </Container>
+            </div>
+            <div className="col-md-5 text-center text-md-end">
+              <div>
+                <h1>
+                  <div className="display-5 text-primary">Beard</div>
+                </h1>
+                <p className="lead my-4 text-secondary">
+                  Check out many of our beard services that we have on offer!
+                </p>
+                <div className="mb-4 text-end">
+                  <a
+                    className="btn btn-primary"
+                    type="submit"
+                    href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See Services!
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-lg ">
+          <div className="row justify-content-center align-items-center">
+            <div className="col-md-5 text-center text-md-start">
+              <h1>
+                <div className="display-5 text-primary">Combo</div>
+              </h1>
+              <p className="lead my-4 text-secondary">
+                Check out our combo services that we have on offer!
+              </p>
+              <div className="mb-4 text-start">
+                <a
+                  className="btn btn-primary"
+                  type="submit"
+                  href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  See Services!
+                </a>
+              </div>
+            </div>
+            <div
+              className="
+            col-md-7 d-md-block"
+            >
+              <div>
+                <img
+                  className="img-fluid"
+                  src="client/styles/images/combo1.png"
+                  alt="barber giving haircut"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   )
