@@ -4,14 +4,16 @@ function About() {
   return (
     <>
       <section className="about-section mb-5" id="about">
-        <div className="container-lg ">
+        <div className="container-lg">
           <div className="row justify-content-center align-items-center">
-            <div className="col-md-7 d-md-block">
+            <div className="col-md-7 d-none d-md-block mt-5 pt-5">
               <motion.img
-                initial={{ x: -100, opacity: 0 }}
-                transition={{ ease: 'linear', duration: 2.5 }}
-                animate={{ x: 0, opacity: 1 }}
-                whileHover={{ scale: 1.1 }}
+                initial={{ y: 70, opacity: 0 }}
+                transition={{ ease: 'linear', duration: 1 }}
+                whileHover={{
+                  scale: [1, 1.1, 1, 1.1, 1],
+                }}
+                whileInView={{ y: 0, opacity: 1 }}
                 drag
                 dragConstraints={{
                   top: -20,
@@ -20,32 +22,74 @@ function About() {
                   bottom: 20,
                 }}
                 className="img-fluid"
-                src="client/styles/images/barbershop-logo.png"
+                src="client/styles/images/hero-image.png"
                 alt="Barbershop card"
               />
             </div>
             <div className="col-md-5 text-center text-md-start">
               <motion.div
+                className="pt-5"
                 initial={{ x: 100, opacity: 0 }}
                 transition={{ ease: 'linear', duration: 2.5 }}
                 animate={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div className="display-4 text-primary">
+                  <motion.div
+                    initial={{ opacity: 0, y: -50 }}
+                    transition={{ duration: 1 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    className="display-4 mt-5 pt-5"
+                    style={{ color: 'rgb(180, 34, 34)' }}
+                  >
                     Welcome to Fresh & Faded
-                  </div>
-                  <div className="display-5 text-secondary p">Barbershop</div>
+                  </motion.div>
+                  <motion.div
+                    initial={{ opacity: 0, y: 50 }}
+                    transition={{ duration: 1 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    className="display-5 p"
+                    style={{ color: 'rgb(31, 99, 224)' }}
+                  >
+                    Barbershop
+                  </motion.div>
                 </h1>
-                <p className="lead my-4 text-secondary">
-                  Come in for a fresh cut, nice fade, beard trim or a cut throat
-                  shave.
-                </p>
-                <p className="lead my-4 text-secondary">
-                  Great barber! Great banter! Quality cuts!
-                </p>
-                <p className="lead my-4 text-secondary">
-                  We like to make you feel good!
-                </p>
+                <motion.div
+                  initial={{ opacity: 0, x: 50 }}
+                  transition={{ duration: 1 }}
+                  whileInView={{ x: 0, opacity: 1 }}
+                >
+                  <p
+                    className="lead my-4"
+                    style={{ color: 'rgb(255, 255, 255)' }}
+                  >
+                    Come in for a fresh cut, nice fade, beard trim or a cut
+                    throat shave.
+                  </p>
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0, x: -50 }}
+                  transition={{ duration: 1 }}
+                  whileInView={{ x: 0, opacity: 1 }}
+                >
+                  <p
+                    className="lead my-4"
+                    style={{ color: 'rgb(255, 255, 255)' }}
+                  >
+                    Great barber! Great banter! Quality cuts!
+                  </p>
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0, x: 50 }}
+                  transition={{ duration: 1 }}
+                  whileInView={{ x: 0, opacity: 1 }}
+                >
+                  <p
+                    className="lead my-4"
+                    style={{ color: 'rgb(255, 255, 255)' }}
+                  >
+                    We like to make you feel good!
+                  </p>
+                </motion.div>
               </motion.div>
             </div>
           </div>

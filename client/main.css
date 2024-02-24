@@ -73,7 +73,7 @@ button.navbar-toggler.collapsed {
   transform: translateX(-50%);
   width: 0;
   height: 2px;
-  background-color: rgb(139, 23, 23);
+  background-color: rgb(180, 34, 34);
   visibility: hidden;
   transition: 0.6s ease-in-out;
 }
@@ -106,7 +106,7 @@ button.navbar-toggler.collapsed {
 /* ICONS CONTACT */
 div.col-2 {
   /* color: white; */
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 /* LOCATION SECTION */
