@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion'
+
 function Services() {
   return (
     <>
@@ -18,10 +20,15 @@ function Services() {
               />
             </div>
             <div className="col-md-5 text-center text-md-end">
-              <div>
+              <motion.div
+                initial={{ opacity: 0, x: 100 }}
+                transition={{ duration: 1.5 }}
+                whileInView={{ x: 0, opacity: 1 }}
+              >
                 <h1>
                   <div className="display-5 text-primary">Haircut</div>
                 </h1>
+
                 <p className="lead my-4 text-secondary">
                   Check out many of our hair services that we have on offer!
                 </p>
@@ -36,30 +43,36 @@ function Services() {
                     See Services!
                   </a>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
         <div className="container-lg ">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-5 text-center text-md-start">
-              <h1>
-                <div className="display-5 text-primary">Featured</div>
-              </h1>
-              <p className="lead my-4 text-secondary">
-                Check out many of our featured services that we have on offer!
-              </p>
-              <div className="mb-4 text-start">
-                <a
-                  className="btn btn-primary"
-                  type="submit"
-                  href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  See Services!
-                </a>
-              </div>
+              <motion.div
+                initial={{ opacity: 0, x: -100 }}
+                transition={{ duration: 1.5 }}
+                whileInView={{ x: 0, opacity: 1 }}
+              >
+                <h1>
+                  <div className="display-5 text-primary">Featured</div>
+                </h1>
+                <p className="lead my-4 text-secondary">
+                  Check out many of our featured services that we have on offer!
+                </p>
+                <div className="mb-4 text-start">
+                  <a
+                    className="btn btn-primary"
+                    type="submit"
+                    href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See Services!
+                  </a>
+                </div>
+              </motion.div>
             </div>
             <div
               className="
@@ -85,7 +98,11 @@ function Services() {
               />
             </div>
             <div className="col-md-5 text-center text-md-end">
-              <div>
+              <motion.div
+                initial={{ opacity: 0, x: 100 }}
+                transition={{ duration: 1.5 }}
+                whileInView={{ x: 0, opacity: 1 }}
+              >
                 <h1>
                   <div className="display-5 text-primary">Beard</div>
                 </h1>
@@ -103,30 +120,36 @@ function Services() {
                     See Services!
                   </a>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
         <div className="container-lg ">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-5 text-center text-md-start">
-              <h1>
-                <div className="display-5 text-primary">Combo</div>
-              </h1>
-              <p className="lead my-4 text-secondary">
-                Check out our combo services that we have on offer!
-              </p>
-              <div className="mb-4 text-start">
-                <a
-                  className="btn btn-primary"
-                  type="submit"
-                  href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  See Services!
-                </a>
-              </div>
+              <motion.div
+                initial={{ opacity: 0, x: -100 }}
+                transition={{ duration: 1.5 }}
+                whileInView={{ x: 0, opacity: 1 }}
+              >
+                <h1>
+                  <div className="display-5 text-primary">Combo</div>
+                </h1>
+                <p className="lead my-4 text-secondary">
+                  Check out our combo services that we have on offer!
+                </p>
+                <div className="mb-4 text-start">
+                  <a
+                    className="btn btn-primary"
+                    type="submit"
+                    href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See Services!
+                  </a>
+                </div>
+              </motion.div>
             </div>
             <div
               className="
