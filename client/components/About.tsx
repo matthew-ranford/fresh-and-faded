@@ -1,5 +1,13 @@
 import { motion } from 'framer-motion'
 
+const buttonHoverVariant = {
+  hover: {
+    scale: [1, 1.2, 1, 1.2, 1],
+    textShadow: '0px 0px 12px rgb(0, 0, 0)',
+    boxShadow: '0px 0px 12px rgb(255, 255, 255)',
+  },
+}
+
 function About() {
   return (
     <>
@@ -90,6 +98,24 @@ function About() {
                     We like to make you feel good!
                   </p>
                 </motion.div>
+                <motion.a
+                  href="#hours"
+                  className="btn btn-primary px-3 py-2 mt-4"
+                  style={{
+                    background: '#272727',
+                    color: 'white',
+                    borderColor: 'white',
+                  }}
+                  aria-controls="example-collapse-text"
+                  aria-expanded={open}
+                  variants={buttonHoverVariant}
+                  whileHover="hover"
+                  initial={{ opacity: 0, y: 100 }}
+                  transition={{ duration: 0.8 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                >
+                  Barbershop Hours!
+                </motion.a>
               </motion.div>
             </div>
           </div>
