@@ -10,7 +10,6 @@ const containerVariants = {
   visible: {
     y: 0,
     transition: {
-      ease: 'linear',
       duration: 2.5,
     },
   },
@@ -21,9 +20,13 @@ function Navigation() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ ease: 'linear', duration: 2 }}
+      transition={{ ease: 'linear', duration: 1.5 }}
     >
-      <Navbar collapseOnSelect expand="lg" className="justify-content-center  ">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        className="justify-content-center fixed-top"
+      >
         <Container className="container-lg">
           <Navbar.Brand href="#home">
             <motion.img
@@ -37,7 +40,7 @@ function Navigation() {
               alt="Barber logo"
             />
           </Navbar.Brand>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <motion.div
               variants={containerVariants}
               initial="hidden"
@@ -54,7 +57,7 @@ function Navigation() {
                   variants={containerVariants}
                   initial="hidden"
                   animate="visible"
-                  whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
+                  whileHover={{ transition: 1 }}
                 >
                   About
                 </motion.div>
@@ -64,7 +67,7 @@ function Navigation() {
                   variants={containerVariants}
                   initial="hidden"
                   animate="visible"
-                  whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
+                  whileHover={{ transition: 1 }}
                 >
                   Gallery
                 </motion.div>
@@ -74,17 +77,22 @@ function Navigation() {
                   variants={containerVariants}
                   initial="hidden"
                   animate="visible"
-                  whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
+                  whileHover={{ transition: 1 }}
                 >
                   Services
                 </motion.div>
               </Nav.Link>
-              <Nav.Link className="nav-link mx-lg-2" href="#booking">
+              <Nav.Link
+                className="nav-link mx-lg-2"
+                href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <motion.div
                   variants={containerVariants}
                   initial="hidden"
                   animate="visible"
-                  whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
+                  whileHover={{ transition: 1 }}
                 >
                   Booking
                 </motion.div>
@@ -94,7 +102,7 @@ function Navigation() {
                   variants={containerVariants}
                   initial="hidden"
                   animate="visible"
-                  whileHover={{ color: 'rgb(139, 23, 23)', transition: 1 }}
+                  whileHover={{ transition: 1 }}
                 >
                   Contact
                 </motion.div>
