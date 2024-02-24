@@ -1,22 +1,38 @@
 import { motion } from 'framer-motion'
 
+const buttonHoverVariant = {
+  hover: {
+    scale: [1, 1.2, 1, 1.2, 1],
+    textShadow: '0px 0px 8px rgb(0, 0, 0)',
+    boxShadow: '0px 0px 8px rgb(255, 255, 255)',
+  },
+}
+
 function Services() {
   return (
     <>
       <section id="services" className="container pt-5 pb-5">
-        <div className=" text-center">
+        <motion.div
+          className=" text-center"
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 0.8 }}
+          whileInView={{ y: 0, opacity: 1 }}
+        >
           <h2 className="text-primary">Services</h2>
           <p className="lead text-secondary">
             Checkout the services we offer before making a booking!
           </p>
-        </div>
+        </motion.div>
         <div className="container-lg ">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-7 d-md-block">
-              <img
+              <motion.img
                 className="img-fluid"
                 src="client/styles/images/haircut1.png"
                 alt="barber giving haircut"
+                initial={{ opacity: 0, x: -100 }}
+                transition={{ duration: 1.5 }}
+                whileInView={{ x: 0, opacity: 1 }}
               />
             </div>
             <div className="col-md-5 text-center text-md-end">
@@ -32,17 +48,6 @@ function Services() {
                 <p className="lead my-4 text-secondary">
                   Check out many of our hair services that we have on offer!
                 </p>
-                <div className="mb-4 text-end">
-                  <a
-                    className="btn btn-primary"
-                    type="submit"
-                    href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    See Services!
-                  </a>
-                </div>
               </motion.div>
             </div>
           </div>
@@ -61,17 +66,6 @@ function Services() {
                 <p className="lead my-4 text-secondary">
                   Check out many of our featured services that we have on offer!
                 </p>
-                <div className="mb-4 text-start">
-                  <a
-                    className="btn btn-primary"
-                    type="submit"
-                    href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    See Services!
-                  </a>
-                </div>
               </motion.div>
             </div>
             <div
@@ -79,10 +73,13 @@ function Services() {
             col-md-7 d-md-block"
             >
               <div>
-                <img
+                <motion.img
                   className="img-fluid"
                   src="client/styles/images/featured.png"
                   alt="barber giving haircut"
+                  initial={{ opacity: 0, x: 100 }}
+                  transition={{ duration: 1.5 }}
+                  whileInView={{ x: 0, opacity: 1 }}
                 />
               </div>
             </div>
@@ -91,10 +88,13 @@ function Services() {
         <div className="container-lg ">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-7 d-md-block">
-              <img
+              <motion.img
                 className="img-fluid"
                 src="client/styles/images/beard1.png"
                 alt="barber giving haircut"
+                initial={{ opacity: 0, x: -100 }}
+                transition={{ duration: 1.5 }}
+                whileInView={{ x: 0, opacity: 1 }}
               />
             </div>
             <div className="col-md-5 text-center text-md-end">
@@ -109,17 +109,6 @@ function Services() {
                 <p className="lead my-4 text-secondary">
                   Check out many of our beard services that we have on offer!
                 </p>
-                <div className="mb-4 text-end">
-                  <a
-                    className="btn btn-primary"
-                    type="submit"
-                    href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    See Services!
-                  </a>
-                </div>
               </motion.div>
             </div>
           </div>
@@ -138,17 +127,6 @@ function Services() {
                 <p className="lead my-4 text-secondary">
                   Check out our combo services that we have on offer!
                 </p>
-                <div className="mb-4 text-start">
-                  <a
-                    className="btn btn-primary"
-                    type="submit"
-                    href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    See Services!
-                  </a>
-                </div>
               </motion.div>
             </div>
             <div
@@ -156,14 +134,38 @@ function Services() {
             col-md-7 d-md-block"
             >
               <div>
-                <img
+                <motion.img
                   className="img-fluid"
                   src="client/styles/images/combo1.png"
                   alt="barber giving haircut"
+                  initial={{ opacity: 0, x: 100 }}
+                  transition={{ duration: 1.5 }}
+                  whileInView={{ x: 0, opacity: 1 }}
                 />
               </div>
             </div>
           </div>
+        </div>
+        <div className="mb-4 text-center mt-4">
+          <motion.a
+            variants={buttonHoverVariant}
+            whileHover="hover"
+            className="btn btn-primary px-3 py-2"
+            style={{
+              background: '#272727',
+              color: 'white',
+              borderColor: 'white',
+            }}
+            initial={{ opacity: 0, y: 100 }}
+            transition={{ duration: 0.8 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            type="submit"
+            href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Check Services!
+          </motion.a>
         </div>
       </section>
     </>
