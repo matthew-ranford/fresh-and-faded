@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 function Location() {
   return (
     <>
-      <section className="location-section">
+      <section className="location-section pt-5 pb-5">
         <div className="container-lg mb-5">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-7 d-md-block">

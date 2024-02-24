@@ -3,8 +3,8 @@ import { motion } from 'framer-motion'
 const buttonHoverVariant = {
   hover: {
     scale: [1, 1.2, 1, 1.2, 1],
-    textShadow: '0px 0px 8px rgb(0, 0, 0)',
-    boxShadow: '0px 0px 8px rgb(255, 255, 255)',
+    textShadow: '0px 0px 12px rgb(0, 0, 0)',
+    boxShadow: '0px 0px 12px rgb(255, 255, 255)',
   },
 }
 
@@ -13,7 +13,7 @@ function Services() {
     <>
       <section id="services" className="container pt-5 pb-5">
         <motion.div
-          className=" text-center"
+          className="text-center"
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.8 }}
           whileInView={{ y: 0, opacity: 1 }}
