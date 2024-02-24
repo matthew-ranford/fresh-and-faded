@@ -82,7 +82,7 @@ function Footer() {
           <motion.a
             className="btn btn-primary px-3 py-2"
             style={{
-              background: '#272727',
+              background: 'rgb(180, 34, 34)',
               color: 'white',
               borderColor: 'white',
             }}
