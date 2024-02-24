@@ -13,10 +13,18 @@ const easeInVariant = {
   },
 }
 
-const buttonHoverVariant = {
+const iconHoverVariant = {
   hover: {
     scale: [1, 1.2, 1, 1.2, 1],
     textShadow: '0px 0px 8px rgb(255, 255, 255)',
+  },
+}
+
+const buttonHoverVariant = {
+  hover: {
+    scale: [1, 1.2, 1, 1.2, 1],
+    textShadow: '0px 0px 12px rgb(0, 0, 0)',
+    boxShadow: '0px 0px 12px rgb(255, 255, 255)',
   },
 }
 
@@ -25,7 +33,7 @@ function Footer() {
     <Container fluid="md">
       <Row className="text-center justify-content-center pb-3">
         <Col xs={2}>
-          <motion.div variants={buttonHoverVariant} whileHover="hover">
+          <motion.div variants={iconHoverVariant} whileHover="hover">
             <motion.a
               variants={easeInVariant}
               initial="initial"
@@ -41,7 +49,7 @@ function Footer() {
           </motion.div>
         </Col>
         <Col xs={2}>
-          <motion.div variants={buttonHoverVariant} whileHover="hover">
+          <motion.div variants={iconHoverVariant} whileHover="hover">
             <motion.a
               variants={easeInVariant}
               initial="initial"
@@ -57,7 +65,7 @@ function Footer() {
           </motion.div>
         </Col>
         <Col xs={2}>
-          <motion.div variants={buttonHoverVariant} whileHover="hover">
+          <motion.div variants={iconHoverVariant} whileHover="hover">
             <motion.a
               variants={easeInVariant}
               initial="initial"
@@ -69,6 +77,27 @@ function Footer() {
               <i className="bi bi-telephone display-5"></i>
             </motion.a>
           </motion.div>
+        </Col>
+        <Col xs={2}>
+          <motion.a
+            className="btn btn-primary px-3 py-2"
+            style={{
+              background: '#272727',
+              color: 'white',
+              borderColor: 'white',
+            }}
+            variants={buttonHoverVariant}
+            whileHover="hover"
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.8 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            type="submit"
+            href="https://www.google.com/search?hl=en-NZ&gl=nz&q=Fresh+%26+Faded+BARBERSHOP+1+Wainui+Road,+Waiwhetu,+Lower+Hutt+5010&ludocid=14007977708141677625&lsig=AB86z5VRjJzEzTiU32DsLrIWA1K8&hl=en&gl=NZ#lrd=0x6d38aa43fdc7206d:0xc266558213600c39,1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Write a Review!
+          </motion.a>
         </Col>
       </Row>
     </Container>
