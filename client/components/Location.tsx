@@ -232,6 +232,7 @@ function Location() {
               </div>
               <div className="col-md-4 text-center px-3">
                 <motion.button
+                  id="walk-in"
                   className="btn btn-primary px-3 py-2 mt-4"
                   style={{
                     background: '#272727',
