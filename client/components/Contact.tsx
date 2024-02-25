@@ -11,16 +11,18 @@ const buttonHoverVariant = {
 function Contact() {
   return (
     <>
-      <section id="contact" className="bg-light">
-        <div className="container-lg text-primary">
+      <section id="contact" style={{ backgroundColor: 'rgb(240, 234, 234)' }}>
+        <div className="container-lg">
           <motion.div
             className="text-center pt-5"
             initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.8 }}
             whileInView={{ y: 0, opacity: 1 }}
           >
-            <h2>Get in Touch</h2>
-            <p className="lead text-secondary">
+            <h2 className="display-4" style={{ color: 'rgb(31, 99, 224)' }}>
+              Get in Touch
+            </h2>
+            <p className="lead text-dark">
               Questions? Fill out the form to contact me directly!
             </p>
           </motion.div>
@@ -28,7 +30,7 @@ function Contact() {
           <div className="row justify-content-center my-5 ">
             <div className="col-lg-6">
               <form>
-                <label htmlFor="email" className="form-label">
+                <label htmlFor="email" className="form-label text-dark">
                   Email Address:
                 </label>
                 <div className="mb-4 input-group">
@@ -43,7 +45,7 @@ function Contact() {
                   />
                 </div>
 
-                <label htmlFor="name" className="form-label">
+                <label htmlFor="name" className="form-label text-dark">
                   Name:
                 </label>
                 <div className="mb-4 input-group">
@@ -58,7 +60,7 @@ function Contact() {
                   />
                 </div>
 
-                <label htmlFor="subject" className="form-label">
+                <label htmlFor="subject" className="form-label text-dark">
                   Subject:
                 </label>
                 <div className="mb-4 input-group">
@@ -77,9 +79,11 @@ function Contact() {
                   <textarea
                     id="query"
                     className="form-control"
-                    // style="height: 10rem"
+                    style={{ height: '10rem' }}
                   ></textarea>
-                  <label htmlFor="query">Your query..</label>
+                  <label htmlFor="query" className="text-dark">
+                    Your query..
+                  </label>
                 </div>
 
                 <div className="mb-4 text-center pb-3">
