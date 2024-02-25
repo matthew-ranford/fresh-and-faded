@@ -49,13 +49,22 @@ function About() {
                     className="display-4 mt-5 pt-5"
                     style={{ color: 'rgb(180, 34, 34)' }}
                   >
-                    Welcome to Fresh & Faded
+                    <div style={{ color: 'rgb(31, 99, 224)' }}>Welcome to</div>{' '}
+                    <motion.div
+                      className="text-center"
+                      initial={{ opacity: 0, x: 50 }}
+                      transition={{ duration: 1 }}
+                      whileInView={{ x: 0, opacity: 1 }}
+                    >
+                      Fresh & Faded
+                    </motion.div>
                   </motion.div>
+
                   <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     transition={{ duration: 1 }}
                     whileInView={{ y: 0, opacity: 1 }}
-                    className="display-5 p"
+                    className="display-5 text-center"
                     style={{ color: 'rgb(31, 99, 224)' }}
                   >
                     Barbershop
