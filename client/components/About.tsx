@@ -21,7 +21,7 @@ function About() {
             <div className="row justify-content-center align-items-center">
               <div className="col-md-6 pt-5 mt-5 text-center text-md-start">
                 <motion.div
-                  className="pt-5 "
+                  className="pt-5"
                   initial={{ x: -100, opacity: 0 }}
                   transition={{ ease: 'linear', duration: 2.5 }}
                   animate={{ x: 0, opacity: 1 }}
