@@ -19,7 +19,7 @@ function Contact() {
             transition={{ duration: 0.8 }}
             whileInView={{ y: 0, opacity: 1 }}
           >
-            <h2 className="display-4" style={{ color: 'rgb(31, 99, 224)' }}>
+            <h2 className="display-4" style={{ color: 'rgb(180, 34, 34)' }}>
               Get in Touch
             </h2>
             <p className="lead text-dark">
