@@ -18,7 +18,7 @@ function Services() {
           transition={{ duration: 0.8 }}
           whileInView={{ y: 0, opacity: 1 }}
         >
-          <h2 className=" display-4" style={{ color: 'rgb(31, 99, 224)' }}>
+          <h2 className=" display-4" style={{ color: 'rgb(180, 34, 34)' }}>
             Services
           </h2>
           <p className="lead text-light mb-4">
@@ -36,7 +36,7 @@ function Services() {
                 <h1>
                   <div
                     className="display-5"
-                    style={{ color: 'rgb(31, 99, 224)' }}
+                    style={{ color: 'rgb(180, 34, 34)' }}
                   >
                     Walk-Ins
                   </div>
@@ -102,7 +102,7 @@ function Services() {
                 <h1>
                   <div
                     className="display-5"
-                    style={{ color: 'rgb(31, 99, 224)' }}
+                    style={{ color: 'rgb(180, 34, 34)' }}
                   >
                     Haircut
                   </div>
@@ -126,7 +126,7 @@ function Services() {
                 <h1>
                   <div
                     className="display-5"
-                    style={{ color: 'rgb(31, 99, 224)' }}
+                    style={{ color: 'rgb(180, 34, 34)' }}
                   >
                     Featured
                   </div>
@@ -174,7 +174,7 @@ function Services() {
                 <h1>
                   <div
                     className="display-5"
-                    style={{ color: 'rgb(31, 99, 224)' }}
+                    style={{ color: 'rgb(180, 34, 34)' }}
                   >
                     Beard
                   </div>
@@ -197,7 +197,7 @@ function Services() {
                 <h1>
                   <div
                     className="display-5"
-                    style={{ color: 'rgb(31, 99, 224)' }}
+                    style={{ color: 'rgb(180, 34, 34)' }}
                   >
                     Combo
                   </div>
