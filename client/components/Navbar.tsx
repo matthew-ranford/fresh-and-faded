@@ -62,16 +62,6 @@ function Navigation() {
                   About
                 </motion.div>
               </Nav.Link>
-              <Nav.Link className="nav-link mx-lg-2" href="#gallery">
-                <motion.div
-                  variants={containerVariants}
-                  initial="hidden"
-                  animate="visible"
-                  whileHover={{ transition: 1 }}
-                >
-                  Gallery
-                </motion.div>
-              </Nav.Link>
               <Nav.Link className="nav-link mx-lg-2" href="#services">
                 <motion.div
                   variants={containerVariants}
@@ -80,6 +70,16 @@ function Navigation() {
                   whileHover={{ transition: 1 }}
                 >
                   Services
+                </motion.div>
+              </Nav.Link>
+              <Nav.Link className="nav-link mx-lg-2" href="#gallery">
+                <motion.div
+                  variants={containerVariants}
+                  initial="hidden"
+                  animate="visible"
+                  whileHover={{ transition: 1 }}
+                >
+                  Gallery
                 </motion.div>
               </Nav.Link>
               <Nav.Link

@@ -12,8 +12,8 @@ function App() {
       <div className="background">
         <Navigation />
         <About />
-        <Gallery />
         <Services />
+        <Gallery />
         <Contact />
         <Location />
         <Footer />
