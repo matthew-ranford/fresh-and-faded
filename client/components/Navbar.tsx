@@ -107,6 +107,16 @@ function Navigation() {
                   Contact
                 </motion.div>
               </Nav.Link>
+              <Nav.Link className="nav-link mx-lg-2" href="#hours">
+                <motion.div
+                  variants={containerVariants}
+                  initial="hidden"
+                  animate="visible"
+                  whileHover={{ transition: 1 }}
+                >
+                  Hours
+                </motion.div>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
