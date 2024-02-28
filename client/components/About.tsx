@@ -11,32 +11,12 @@ const buttonHoverVariant = {
 function About() {
   return (
     <>
-      <section className="about-section mb-5" id="about">
-        <div className="container-lg">
+      <section className="about-section " id="about">
+        <div className="container-lg about-main">
           <div className="row justify-content-center align-items-center">
-            <div className="col-md-7 d-none d-md-block mt-5 pt-5">
-              <motion.img
-                initial={{ y: 70, opacity: 0 }}
-                transition={{ ease: 'linear', duration: 1 }}
-                whileHover={{
-                  scale: [1, 1.1, 1, 1.1, 1],
-                }}
-                whileInView={{ y: 0, opacity: 1 }}
-                drag
-                dragConstraints={{
-                  top: -20,
-                  left: -20,
-                  right: 20,
-                  bottom: 20,
-                }}
-                className="img-fluid"
-                src="client/styles/images/hero-image.png"
-                alt="Barbershop card"
-              />
-            </div>
-            <div className="col-md-5 text-center text-md-start">
+            <div className="col-md-6 pt-5 mt-5 text-center text-md-start">
               <motion.div
-                className="pt-5"
+                className="pt-5 "
                 initial={{ x: 100, opacity: 0 }}
                 transition={{ ease: 'linear', duration: 2.5 }}
                 animate={{ x: 0, opacity: 1 }}
@@ -46,12 +26,12 @@ function About() {
                     initial={{ opacity: 0, y: -50 }}
                     transition={{ duration: 1 }}
                     whileInView={{ y: 0, opacity: 1 }}
-                    className="display-4 mt-5 pt-5"
+                    className="display-6 text-center"
                     style={{ color: 'rgb(180, 34, 34)' }}
                   >
-                    <div style={{ color: 'rgb(31, 99, 224)' }}>Welcome to</div>{' '}
+                    {/* <div style={{ color: 'rgb(31, 99, 224)' }}>Welcome to</div> */}
                     <motion.div
-                      className="text-center"
+                      className=" display-1"
                       initial={{ opacity: 0, x: 50 }}
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
@@ -59,17 +39,29 @@ function About() {
                       Fresh & Faded
                     </motion.div>
                   </motion.div>
-
-                  <motion.div
-                    initial={{ opacity: 0, y: 50 }}
-                    transition={{ duration: 1 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    className="display-5 text-center"
-                    style={{ color: 'rgb(31, 99, 224)' }}
-                  >
-                    Barbershop
-                  </motion.div>
                 </h1>
+                <motion.img
+                  initial={{ y: 70, opacity: 0 }}
+                  transition={{ ease: 'linear', duration: 1 }}
+                  whileHover={{
+                    scale: [1, 1.1, 1, 1.1, 1],
+                  }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  drag
+                  dragConstraints={{
+                    top: -20,
+                    left: -20,
+                    right: 20,
+                    bottom: 20,
+                  }}
+                  className="img-fluid"
+                  src="client/styles/images/barbershop-hero2.png"
+                  alt="Barbershop card"
+                />
+              </motion.div>
+            </div>
+            <div className="col-md-6 pt-5 mt-5">
+              <div className=" pb-3">
                 <motion.div
                   initial={{ opacity: 0, x: 50 }}
                   transition={{ duration: 1 }}
@@ -109,7 +101,7 @@ function About() {
                 </motion.div>
                 <motion.a
                   href="#hours"
-                  className="btn btn-primary px-3 py-2 mt-4"
+                  className="btn btn-primary px-3 py-2 mt-2"
                   style={{
                     background: '#272727',
                     color: 'white',
@@ -125,7 +117,7 @@ function About() {
                 >
                   Barbershop Hours!
                 </motion.a>
-              </motion.div>
+              </div>
             </div>
           </div>
         </div>
