@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Merienda:wght@300..900&display=swap');
 
 * {
   margin: 0;
@@ -104,6 +105,10 @@ button.navbar-toggler.collapsed {
 .about-main {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 16px;
+}
+
+.font-change {
+  font-family: 'Merienda', cursive;
 }
 
 /* .container-lg {
