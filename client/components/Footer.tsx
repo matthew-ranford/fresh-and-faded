@@ -100,6 +100,23 @@ function Footer() {
           </motion.a>
         </Col>
       </Row>
+      <Row className="text-center justify-content-center pb-3 pt-2">
+        <Col className="text-secondary">
+          <div style={{ color: 'rgb(255, 255, 255)' }}>
+            Made with ❤️ by
+            <a
+              className="px-1"
+              style={{ textDecoration: 'none' }}
+              href="https://matthew-ranford.github.io/portfolio/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Matt Ranford
+            </a>
+            &copy;2024
+          </div>
+        </Col>
+      </Row>
     </Container>
   )
 }
