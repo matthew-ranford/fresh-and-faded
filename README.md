@@ -6,7 +6,8 @@
 ## New Technologies I'm Trialing
 - Bootstrap
 - React Bootstrap 
-- Framer-Motion 
+- Sass
+- Framer-Motion
 
 ## Packages Included
 
