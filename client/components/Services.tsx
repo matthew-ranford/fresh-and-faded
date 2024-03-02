@@ -18,9 +18,7 @@ function Services() {
           transition={{ duration: 0.8 }}
           whileInView={{ y: 0, opacity: 1 }}
         >
-          <h2 className=" display-4" style={{ color: 'rgb(180, 34, 34)' }}>
-            Services
-          </h2>
+          <h2 className=" display-4 text-primary">Services</h2>
           <p className="lead text-light mb-4">
             Checkout the services we offer before making a booking!
           </p>
@@ -34,12 +32,7 @@ function Services() {
                 whileInView={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div
-                    className="display-5"
-                    style={{ color: 'rgb(180, 34, 34)' }}
-                  >
-                    Walk-Ins
-                  </div>
+                  <div className="display-5 text-primary">Walk-Ins</div>
                 </h1>
                 <p className="lead my-4 text-light">
                   Check out our current walk-in times!
@@ -100,12 +93,7 @@ function Services() {
                 whileInView={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div
-                    className="display-5"
-                    style={{ color: 'rgb(180, 34, 34)' }}
-                  >
-                    Haircut
-                  </div>
+                  <div className="display-5 text-primary">Haircut</div>
                 </h1>
 
                 <p className="lead my-4 text-light">
@@ -124,12 +112,7 @@ function Services() {
                 whileInView={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div
-                    className="display-5"
-                    style={{ color: 'rgb(180, 34, 34)' }}
-                  >
-                    Featured
-                  </div>
+                  <div className="display-5 text-primary">Featured</div>
                 </h1>
                 <p className="lead my-4 text-light">
                   Check out many of our featured services that we have on offer!
@@ -172,12 +155,7 @@ function Services() {
                 whileInView={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div
-                    className="display-5"
-                    style={{ color: 'rgb(180, 34, 34)' }}
-                  >
-                    Beard
-                  </div>
+                  <div className="display-5 text-primary">Beard</div>
                 </h1>
                 <p className="lead my-4 text-light">
                   Check out many of our beard services that we have on offer!
@@ -195,12 +173,7 @@ function Services() {
                 whileInView={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div
-                    className="display-5"
-                    style={{ color: 'rgb(180, 34, 34)' }}
-                  >
-                    Combo
-                  </div>
+                  <div className="display-5 text-primary">Combo</div>
                 </h1>
                 <p className="lead my-4 text-light">
                   Check out our combo services that we have on offer!
