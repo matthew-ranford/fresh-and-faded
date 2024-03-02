@@ -11,7 +11,7 @@ const buttonHoverVariant = {
 function About() {
   return (
     <>
-      <section className="about-section " id="about">
+      <section className="about-section" id="about">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -28,21 +28,12 @@ function About() {
                 >
                   <h1>
                     <motion.div
+                      className="display-1 font-change text-primary"
                       initial={{ opacity: 0, y: -50 }}
                       transition={{ duration: 1 }}
                       whileInView={{ y: 0, opacity: 1 }}
-                      className="display-6 text-center"
-                      style={{ color: 'rgb(180, 34, 34)' }}
                     >
-                      {/* <div style={{ color: 'rgb(31, 99, 224)' }}>Welcome to</div> */}
-                      <motion.div
-                        className=" display-1 font-change"
-                        initial={{ opacity: 0, y: -50 }}
-                        transition={{ duration: 1 }}
-                        whileInView={{ y: 0, opacity: 1 }}
-                      >
-                        Fresh & Faded
-                      </motion.div>
+                      Fresh & Faded
                     </motion.div>
                   </h1>
                   <motion.img
@@ -63,10 +54,7 @@ function About() {
                     src="client/styles/images/barbershop-hero2.png"
                     alt="Barbershop card"
                   />
-                  <p
-                    className="my-4 text-center"
-                    style={{ color: 'rgb(255, 255, 255)' }}
-                  >
+                  <p className="my-4 text-center text-light">
                     <motion.div
                       className="font-change"
                       initial={{ opacity: 0, y: 50 }}
@@ -76,10 +64,7 @@ function About() {
                       Keeping the mature man fresh & the young man faded
                     </motion.div>
                   </p>
-                  <p
-                    className="my-4 text-center"
-                    style={{ color: 'rgb(180, 34, 34)' }}
-                  >
+                  <p className="my-4 text-center text-primary">
                     <motion.div
                       className="font-change"
                       initial={{ opacity: 0, y: 50 }}
@@ -103,10 +88,7 @@ function About() {
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
-                      <p
-                        className="lead my-4"
-                        style={{ color: 'rgb(255, 255, 255)' }}
-                      >
+                      <p className="lead my-4 text-light">
                         Come in for a fresh cut, nice fade, beard trim or a cut
                         throat shave!
                       </p>
@@ -116,10 +98,7 @@ function About() {
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
-                      <p
-                        className="lead my-4"
-                        style={{ color: 'rgb(255, 255, 255)' }}
-                      >
+                      <p className="lead my-4 text-light">
                         Great barber! Great banter! Quality cuts!
                       </p>
                     </motion.div>
@@ -128,10 +107,7 @@ function About() {
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
-                      <p
-                        className="lead my-4"
-                        style={{ color: 'rgb(255, 255, 255)' }}
-                      >
+                      <p className="lead my-4 text-light">
                         We like to make you feel good!
                       </p>
                     </motion.div>
