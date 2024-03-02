@@ -28,7 +28,7 @@ function About() {
                 >
                   <h1>
                     <motion.div
-                      className="display-1 font-change text-primary"
+                      className="display-1 font-change text-primary text-center"
                       initial={{ opacity: 0, y: -50 }}
                       transition={{ duration: 1 }}
                       whileInView={{ y: 0, opacity: 1 }}
