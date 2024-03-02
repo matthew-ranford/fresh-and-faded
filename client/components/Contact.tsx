@@ -11,7 +11,7 @@ const buttonHoverVariant = {
 function Contact() {
   return (
     <>
-      <section id="contact" style={{ backgroundColor: 'rgb(240, 234, 234)' }}>
+      <section id="contact" className="bg-primary-subtle">
         <div className="container-lg">
           <motion.div
             className="text-center pt-5"
@@ -19,15 +19,13 @@ function Contact() {
             transition={{ duration: 0.8 }}
             whileInView={{ y: 0, opacity: 1 }}
           >
-            <h2 className="display-4" style={{ color: 'rgb(180, 34, 34)' }}>
-              Get in Touch
-            </h2>
+            <h2 className="display-4 text-primary">Get in Touch</h2>
             <p className="lead text-dark">
               Questions? Fill out the form to contact me directly!
             </p>
           </motion.div>
 
-          <div className="row justify-content-center my-5 ">
+          <div className="row justify-content-center my-5">
             <div className="col-lg-6">
               <form>
                 <label htmlFor="email" className="form-label text-dark">
