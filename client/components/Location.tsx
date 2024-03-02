@@ -24,9 +24,7 @@ function Location() {
           transition={{ duration: 0.8 }}
           whileInView={{ y: 0, opacity: 1 }}
         >
-          <h2 className="display-4" style={{ color: 'rgb(180, 34, 34)' }}>
-            Hours & Location
-          </h2>
+          <h2 className="display-4 text-primary">Hours & Location</h2>
         </motion.div>
         <div className="container-lg mb-5">
           <div className="row justify-content-center align-items-center">
@@ -54,7 +52,7 @@ function Location() {
                 <motion.button
                   className="btn btn-primary px-3 py-2 mt-4"
                   style={{
-                    background: '#272727',
+                    background: 'none',
                     color: 'white',
                     borderColor: 'white',
                   }}
@@ -76,153 +74,96 @@ function Location() {
                       transition={{ duration: 0.8 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
-                      <ListGroup className="lead my-4 text-secondary">
+                      <ListGroup className="lead my-4">
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Monday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              8:00 AM - 5:00 PM
-                            </p>
+                            <h1 className="text-secondary">Monday:</h1>
+                            <p className="text-light">8:00 AM - 5:00 PM</p>
                           </motion.div>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Tuesday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              8:00 AM - 6:00 PM
-                            </p>
+                            <h1 className="text-secondary">Tuesday:</h1>
+                            <p className="text-light">8:00 AM - 6:00 PM</p>
                           </motion.div>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Wednesday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              {' '}
-                              8:00 AM - 6:00 PM
-                            </p>
+                            <h1 className="text-secondary">Wednesday:</h1>
+                            <p className="text-light"> 8:00 AM - 6:00 PM</p>
                           </motion.div>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Thursday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              8:00 AM - 8:00 PM
-                            </p>
+                            <h1 className="text-secondary">Thursday:</h1>
+                            <p className="text-light">8:00 AM - 8:00 PM</p>
                           </motion.div>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Friday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              8:00 AM - 8:00 PM
-                            </p>
+                            <h1 className="text-secondary">Friday:</h1>
+                            <p className="text-light">8:00 AM - 8:00 PM</p>
                           </motion.div>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Saturday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              8:00 AM - 12:00 PM
-                            </p>
+                            <h1 className="text-secondary">Saturday:</h1>
+                            <p className="text-light">8:00 AM - 12:00 PM</p>
                           </motion.div>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Sunday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              CLOSED
-                            </p>
+                            <h1 className="text-secondary">Sunday:</h1>
+                            <p className="text-light">CLOSED</p>
                           </motion.div>
                         </ListGroup.Item>
                       </ListGroup>
@@ -235,7 +176,7 @@ function Location() {
                   id="walk-in"
                   className="btn btn-primary px-3 py-2 mt-4"
                   style={{
-                    background: '#272727',
+                    background: 'none',
                     color: 'white',
                     borderColor: 'white',
                   }}
@@ -260,150 +201,93 @@ function Location() {
                       <ListGroup className="lead my-4 text-secondary">
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Monday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              8:30 AM - 5:30 PM
-                            </p>
+                            <h1 className="text-secondary">Monday:</h1>
+                            <p className="text-light">8:30 AM - 5:30 PM</p>
                           </motion.div>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Tuesday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              8:30 AM - 5:30 PM
-                            </p>
+                            <h1 className="text-secondary">Tuesday:</h1>
+                            <p className="text-light">8:30 AM - 5:30 PM</p>
                           </motion.div>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Wednesday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              {' '}
-                              8:30 AM - 5:30 PM
-                            </p>
+                            <h1 className="text-secondary">Wednesday:</h1>
+                            <p className="text-light">8:30 AM - 5:30 PM</p>
                           </motion.div>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Thursday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              8:00 AM - 8:00 PM
-                            </p>
+                            <h1 className="text-secondary">Thursday:</h1>
+                            <p className="text-light">8:00 AM - 8:00 PM</p>
                           </motion.div>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Friday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              8:30 AM - 5:30 PM
-                            </p>
+                            <h1 className="text-secondary">Friday:</h1>
+                            <p className="text-light">8:30 AM - 5:30 PM</p>
                           </motion.div>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Saturday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              8:00 AM - 2:30 PM
-                            </p>
+                            <h1 className="text-secondary">Saturday:</h1>
+                            <p className="text-light">8:00 AM - 2:30 PM</p>
                           </motion.div>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
-                          style={{ background: '#272727' }}
+                          style={{ background: 'none' }}
                         >
                           <motion.div
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.8 }}
                             whileInView={{ x: 0, opacity: 1 }}
                           >
-                            <h1 style={{ color: 'rgb(31, 99, 224)' }}>
-                              Sunday:
-                            </h1>{' '}
-                            <p
-                              style={{
-                                color: 'white',
-                              }}
-                            >
-                              CLOSED
-                            </p>
+                            <h1 className="text-secondary">Sunday:</h1>
+                            <p className="text-light">CLOSED</p>
                           </motion.div>
                         </ListGroup.Item>
                       </ListGroup>
