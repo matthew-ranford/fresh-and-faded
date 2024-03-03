@@ -33,9 +33,7 @@ function Navigation() {
               variants={containerVariants}
               initial="hidden"
               animate="visible"
-              src="https://scontent.fpmr1-1.fna.fbcdn.net/v/t1.18169-9/15698060_222415818208286_2851917130035870513_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7a1959&_nc_ohc=IrQt0O2YF5AAX_aBSgV&_nc_ht=scontent.fpmr1-1.fna&oh=00_AfBbRPOveThPJeJK975YRvu5igMi8wv1rDPvJllXGljQ2g&oe=65ECF1B3"
-              width="65"
-              height="65"
+              src="client/styles/images/barber-card-logo.png"
               className="d-inline-block align-top"
               alt="Barber logo"
             />
