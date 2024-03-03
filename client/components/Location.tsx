@@ -12,8 +12,8 @@ const buttonHoverVariant = {
 }
 
 function Location() {
-  const [shopOpen, setShopOpen] = useState(false)
-  const [walkOpen, setWalkOpen] = useState(false)
+  const [shopOpen, setShopOpen] = useState(true)
+  const [walkOpen, setWalkOpen] = useState(true)
 
   return (
     <>
@@ -70,7 +70,7 @@ function Location() {
                 <Fade in={shopOpen}>
                   <div id="example-fade-text">
                     <motion.div
-                      initial={{ opacity: 0, x: 100 }}
+                      initial={{ opacity: 0, x: -100 }}
                       transition={{ duration: 0.8 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
@@ -79,92 +79,50 @@ function Location() {
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: 100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Monday:</h1>
-                            <p className="text-light">8:00 AM - 5:00 PM</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Monday:</h1>
+                          <p className="text-light">8:00 AM - 5:00 PM</p>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: -100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Tuesday:</h1>
-                            <p className="text-light">8:00 AM - 6:00 PM</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Tuesday:</h1>
+                          <p className="text-light">8:00 AM - 6:00 PM</p>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: 100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Wednesday:</h1>
-                            <p className="text-light"> 8:00 AM - 6:00 PM</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Wednesday:</h1>
+                          <p className="text-light"> 8:00 AM - 6:00 PM</p>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: -100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Thursday:</h1>
-                            <p className="text-light">8:00 AM - 8:00 PM</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Thursday:</h1>
+                          <p className="text-light">8:00 AM - 8:00 PM</p>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: 100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Friday:</h1>
-                            <p className="text-light">8:00 AM - 8:00 PM</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Friday:</h1>
+                          <p className="text-light">8:00 AM - 8:00 PM</p>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: -100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Saturday:</h1>
-                            <p className="text-light">8:00 AM - 12:00 PM</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Saturday:</h1>
+                          <p className="text-light">8:00 AM - 12:00 PM</p>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: 100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Sunday:</h1>
-                            <p className="text-light">CLOSED</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Sunday:</h1>
+                          <p className="text-light">CLOSED</p>
                         </ListGroup.Item>
                       </ListGroup>
                     </motion.div>
@@ -203,98 +161,80 @@ function Location() {
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: 100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Monday:</h1>
-                            <p className="text-light">8:30 AM - 5:30 PM</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Monday:</h1>
+                          <p className="text-light">8:30 AM - 5:30 PM</p>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: -100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Tuesday:</h1>
-                            <p className="text-light">8:30 AM - 5:30 PM</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Tuesday:</h1>
+                          <p className="text-light">8:30 AM - 5:30 PM</p>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: 100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Wednesday:</h1>
-                            <p className="text-light">8:30 AM - 5:30 PM</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Wednesday:</h1>
+                          <p className="text-light">8:30 AM - 5:30 PM</p>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: -100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Thursday:</h1>
-                            <p className="text-light">8:00 AM - 8:00 PM</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Thursday:</h1>
+                          <p className="text-light">8:00 AM - 8:00 PM</p>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: 100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Friday:</h1>
-                            <p className="text-light">8:30 AM - 5:30 PM</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Friday:</h1>
+                          <p className="text-light">8:30 AM - 5:30 PM</p>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: -100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Saturday:</h1>
-                            <p className="text-light">8:00 AM - 2:30 PM</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Saturday:</h1>
+                          <p className="text-light">8:00 AM - 2:30 PM</p>
                         </ListGroup.Item>
                         <ListGroup.Item
                           variant="primary"
                           style={{ background: 'none' }}
                         >
-                          <motion.div
-                            initial={{ opacity: 0, x: 100 }}
-                            transition={{ duration: 0.8 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                          >
-                            <h1 className="text-secondary">Sunday:</h1>
-                            <p className="text-light">CLOSED</p>
-                          </motion.div>
+                          <h1 className="text-secondary">Sunday:</h1>
+                          <p className="text-light">CLOSED</p>
                         </ListGroup.Item>
                       </ListGroup>
                     </motion.div>
                   </div>
                 </Fade>
               </div>
+              <motion.div
+                className="text-center"
+                initial={{ opacity: 0, y: -100 }}
+                transition={{ duration: 0.8 }}
+                whileInView={{ y: 0, opacity: 1 }}
+              >
+                <p className="text-light">
+                  *For after-hours bookings, send us a DM on
+                  <motion.a
+                    className="px-1"
+                    whileHover={{ color: 'rgb(180, 34, 34)' }}
+                    style={{
+                      textDecoration: 'none',
+                      color: 'rgb(33, 124, 243)',
+                    }}
+                    href="https://www.facebook.com/FreshandFadedBarberShop"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    facebook
+                  </motion.a>
+                  or an email*
+                </p>
+              </motion.div>
             </div>
           </div>
         </div>
