@@ -19,12 +19,12 @@ function Services() {
           whileInView={{ y: 0, opacity: 1 }}
         >
           <h2 className=" display-4 text-primary">Services</h2>
-          <p className="lead text-light mb-4">
+          <p className="lead text-light mb-4 pb-3">
             Checkout the services we offer before making a booking!
           </p>
         </motion.div>
-        <div className="container-lg ">
-          <div className="row justify-content-center align-items-center">
+        <div className="container-lg">
+          <div className="row justify-content-center align-items-center pt-5">
             <div className="col-md-5 text-center text-md-start">
               <motion.div
                 initial={{ opacity: 0, x: -100 }}
@@ -61,7 +61,7 @@ function Services() {
               className="
             col-md-7 d-md-block"
             >
-              <div className="d-none d-md-block">
+              <div className="d-md-block">
                 <motion.img
                   className="img-fluid"
                   src="client/styles/images/walk-in.png"
@@ -75,8 +75,8 @@ function Services() {
           </div>
         </div>
         <div className="container-lg ">
-          <div className="row justify-content-center align-items-center">
-            <div className="col-md-7 d-none d-md-block">
+          <div className="row justify-content-center align-items-center pt-5">
+            <div className="col-md-7 d-md-block">
               <motion.img
                 className="img-fluid"
                 src="client/styles/images/haircut1.png"
@@ -112,7 +112,7 @@ function Services() {
                 whileInView={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div className="display-5 text-primary">Featured</div>
+                  <div className="display-5 text-primary pt-5">Featured</div>
                 </h1>
                 <p className="lead my-4 text-light">
                   Check out many of our featured services that we have on offer!
@@ -123,7 +123,7 @@ function Services() {
               className="
             col-md-7 d-md-block"
             >
-              <div className="d-none d-md-block">
+              <div className="d-md-block">
                 <motion.img
                   className="img-fluid"
                   src="client/styles/images/featured.png"
@@ -136,11 +136,11 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className="container-lg ">
+        <div className="container-lg">
           <div className="row justify-content-center align-items-center">
-            <div className="col-md-7 d-none d-md-block">
+            <div className="col-md-7 d-md-block">
               <motion.img
-                className="img-fluid"
+                className="img-fluid pt-5"
                 src="client/styles/images/beard1.png"
                 alt="barber giving haircut"
                 initial={{ opacity: 0, x: -100 }}
@@ -173,7 +173,7 @@ function Services() {
                 whileInView={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div className="display-5 text-primary">Combo</div>
+                  <div className="display-5 text-primary pt-5">Combo</div>
                 </h1>
                 <p className="lead my-4 text-light">
                   Check out our combo services that we have on offer!
@@ -184,7 +184,7 @@ function Services() {
               className="
             col-md-7 d-md-block"
             >
-              <div className="d-none d-md-block">
+              <div className="d-md-block">
                 <motion.img
                   className="img-fluid"
                   src="client/styles/images/combo1.png"
