@@ -18,7 +18,7 @@ function About() {
           animate={{ opacity: 1 }}
           transition={{ ease: 'linear', duration: 1.5 }}
         >
-          <div className="container-lg about-main">
+          <div className="container-lg">
             <div className="row justify-content-center align-items-center">
               <div className="col-md-6 pt-5 mt-3 text-center text-md-start">
                 <motion.div

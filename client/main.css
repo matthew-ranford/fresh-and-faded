@@ -94,8 +94,8 @@ button.navbar-toggler.collapsed {
   padding-bottom: 1.8rem;
   background-image: linear-gradient(
       180deg,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(0, 0, 0, 0.6) 50%
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.8) 50%
     ),
     url('https://scontent.fpmr1-1.fna.fbcdn.net/v/t1.6435-9/33964183_449622902154242_5580619563684331520_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=7a1959&_nc_ohc=-FYI3SP1et8AX_QTioj&_nc_ht=scontent.fpmr1-1.fna&oh=00_AfD4YyMe9B_aI-_mnuchaYz2FdO7rcWDA6KbAjq5emhhcw&oe=6605E680');
   height: 100%;
@@ -103,10 +103,10 @@ button.navbar-toggler.collapsed {
   background-size: cover;
 }
 
-.about-main {
+/* .about-main {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 16px;
-}
+} */
 
 .font-change {
   font-family: 'Merienda', cursive;
@@ -137,5 +137,12 @@ div.col-2 {
 @media (max-width: 600px) {
   iframe {
     width: 100%;
+  }
+}
+
+/* BARBERS IMAGES SECTION */
+@media (max-width: 768px) {
+  .image-container {
+    text-align: center;
   }
 }
