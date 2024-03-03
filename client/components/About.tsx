@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import Barbers from './Barbers'
 
 const buttonHoverVariant = {
   hover: {
@@ -19,14 +20,14 @@ function About() {
         >
           <div className="container-lg about-main">
             <div className="row justify-content-center align-items-center">
-              <div className="col-md-6 pt-5 mt-5 text-center text-md-start">
+              <div className="col-md-6 pt-5 mt-3 text-center text-md-start">
                 <motion.div
                   className="pt-5"
                   initial={{ x: -100, opacity: 0 }}
                   transition={{ ease: 'linear', duration: 2.5 }}
                   animate={{ x: 0, opacity: 1 }}
                 >
-                  <h1>
+                  {/* <h1>
                     <motion.div
                       className="display-1 font-change text-primary text-center"
                       initial={{ opacity: 0, y: -50 }}
@@ -35,12 +36,12 @@ function About() {
                     >
                       Fresh & Faded
                     </motion.div>
-                  </h1>
+                  </h1> */}
                   <motion.img
-                    initial={{ y: 70, opacity: 0 }}
-                    transition={{ ease: 'linear', duration: 1 }}
+                    initial={{ y: -20, opacity: -3 }}
+                    transition={{ duration: 1 }}
                     whileHover={{
-                      scale: [1, 1.1, 1, 1.1, 1],
+                      boxShadow: '0px 0px 20px rgb(255, 255, 255)',
                     }}
                     whileInView={{ y: 0, opacity: 1 }}
                     drag
@@ -51,7 +52,8 @@ function About() {
                       bottom: 20,
                     }}
                     className="img-fluid"
-                    src="client/styles/images/barbershop-hero2.png"
+                    style={{ borderRadius: '50%' }}
+                    src="client/styles/images/barber-card-logo.png"
                     alt="Barbershop card"
                   />
                   <p className="my-4 text-center text-light">
@@ -64,6 +66,7 @@ function About() {
                       Keeping the mature man fresh & the young man faded
                     </motion.div>
                   </p>
+
                   <p className="my-4 text-center text-primary">
                     <motion.div
                       className="font-change"
@@ -76,7 +79,7 @@ function About() {
                   </p>
                 </motion.div>
               </div>
-              <div className="col-md-6 pt-5 mt-5 px-5">
+              <div className="col-md-6 pt-5  px-5">
                 <motion.div
                   initial={{ x: 100, opacity: 0 }}
                   transition={{ ease: 'linear', duration: 2.5 }}
@@ -135,6 +138,7 @@ function About() {
             </div>
           </div>
         </motion.div>
+        <Barbers />
       </section>
     </>
   )
