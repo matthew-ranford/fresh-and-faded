@@ -3,6 +3,9 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import { motion } from 'framer-motion'
 
+// TODO:
+// Look at responsiveness for navbar, currently broken - might be due to the framer motion coming from outside 'VW' onto the screen and navbar is keeping itself at that width rather than adjusting properly
+
 const containerVariants = {
   hidden: {
     y: -500,
@@ -27,7 +30,7 @@ function Navigation() {
         expand="lg"
         className="justify-content-center fixed-top"
       >
-        <Container className="container-lg">
+        <Container className="container">
           <Navbar.Brand href="/">
             <motion.img
               variants={containerVariants}
