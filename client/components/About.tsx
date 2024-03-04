@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import Barbers from './Barbers'
-
 import { Carousel } from 'react-bootstrap'
 
 const buttonHoverVariant = {
