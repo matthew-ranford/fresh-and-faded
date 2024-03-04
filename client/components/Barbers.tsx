@@ -9,7 +9,7 @@ function Barbers() {
           animate={{ opacity: 1 }}
           transition={{ ease: 'linear', duration: 1.5 }}
         >
-          <div className="container-lg">
+          <div className="container-lg pt-5">
             <motion.div
               className="text-center pt-5"
               initial={{ opacity: 0, y: -100 }}
