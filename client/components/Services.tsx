@@ -24,7 +24,7 @@ function Services() {
           </p>
         </motion.div>
         <div className="container-lg">
-          <div className="row justify-content-center align-items-center row-reverse">
+          <div className="row justify-content-center align-items-center reverse-col">
             <div className="col-md-5 text-center text-md-start">
               <motion.div
                 initial={{ opacity: 0, x: -100 }}
@@ -65,7 +65,7 @@ function Services() {
                 <motion.img
                   className="img-fluid"
                   src="client/styles/images/walk-in.png"
-                  alt="barber giving haircut"
+                  alt="Walk in open door"
                   initial={{ opacity: 0, x: 100 }}
                   transition={{ duration: 1.5 }}
                   whileInView={{ x: 0, opacity: 1 }}
@@ -103,9 +103,9 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className="container-lg ">
-          <div className="row justify-content-center align-items-center row-reverse">
-            <div className="col-md-5 text-center text-md-start">
+        <div className="container-lg">
+          <div className="row justify-content-center align-items-center reverse-col">
+            <div className="col-md-5 text-center text-md-start pb-3">
               <motion.div
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }}
@@ -127,7 +127,7 @@ function Services() {
                 <motion.img
                   className="img-fluid"
                   src="client/styles/images/featured.png"
-                  alt="barber giving haircut"
+                  alt="Orange star symbol"
                   initial={{ opacity: 0, x: 100 }}
                   transition={{ duration: 1.5 }}
                   whileInView={{ x: 0, opacity: 1 }}
@@ -142,7 +142,7 @@ function Services() {
               <motion.img
                 className="img-fluid"
                 src="client/styles/images/beard1.png"
-                alt="barber giving haircut"
+                alt="Skull with beard"
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }}
                 whileInView={{ x: 0, opacity: 1 }}
@@ -165,8 +165,8 @@ function Services() {
           </div>
         </div>
         <div className="container-lg ">
-          <div className="row justify-content-center align-items-center row-reverse">
-            <div className="col-md-5 text-center text-md-start">
+          <div className="row justify-content-center align-items-center reverse-col">
+            <div className="col-md-5 text-center text-md-start pb-3">
               <motion.div
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }}
@@ -188,7 +188,7 @@ function Services() {
                 <motion.img
                   className="img-fluid"
                   src="client/styles/images/combo1.png"
-                  alt="barber giving haircut"
+                  alt="Father holding son's hand"
                   initial={{ opacity: 0, x: 100 }}
                   transition={{ duration: 1.5 }}
                   whileInView={{ x: 0, opacity: 1 }}

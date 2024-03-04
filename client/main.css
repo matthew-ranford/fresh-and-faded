@@ -145,17 +145,8 @@ div.col-2 {
   .image-container {
     text-align: center;
   }
-}
-
-@media (max-width: 768px) {
+  /* SERVICES & BARBERS SECTION - IMAGES */
   .reverse-col {
-    flex-direction: column-reverse;
-  }
-}
-
-/* SERVICES SECTION - IMAGES */
-@media (max-width: 770px) {
-  .row-reverse {
     flex-direction: column-reverse;
   }
 }
