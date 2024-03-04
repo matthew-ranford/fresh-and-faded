@@ -138,3 +138,10 @@ div.col-2 {
     width: 100%;
   }
 }
+
+/* SERVICES SECTION - IMAGES */
+@media (max-width: 770px) {
+  .row-reverse {
+    flex-direction: column-reverse;
+  }
+}
