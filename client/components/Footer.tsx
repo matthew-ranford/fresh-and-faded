@@ -101,18 +101,23 @@ function Footer() {
         </Col>
       </Row>
       <Row className="text-center justify-content-center pb-3 pt-2">
-        <Col className="text-secondary">
-          <div style={{ color: 'rgb(255, 255, 255)' }}>
+        <Col className="text-light">
+          <div>
             Made with ❤️ by
-            <a
+            <motion.a
               className="px-1"
-              style={{ textDecoration: 'none' }}
+              variants={easeInVariant}
+              initial="initial"
+              transition={{ duration: 2 }}
+              whileInView="inView"
+              style={{ textDecoration: 'none', color: 'rgb(33, 124, 243)' }}
+              whileHover={{ color: 'rgb(180, 34, 34)' }}
               href="https://matthew-ranford.github.io/portfolio/"
               target="_blank"
               rel="noreferrer"
             >
               Matt Ranford
-            </a>
+            </motion.a>
             &copy;2024
           </div>
         </Col>
