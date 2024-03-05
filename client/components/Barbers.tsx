@@ -27,7 +27,7 @@ function Barbers() {
                 >
                   <div className="pb-5 text-center">
                     <motion.div
-                      initial={{ opacity: 0, x: 50 }}
+                      initial={{ opacity: 0, x: 20 }}
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
@@ -36,7 +36,7 @@ function Barbers() {
                       </p>
                     </motion.div>
                     <motion.div
-                      initial={{ opacity: 0, x: -50 }}
+                      initial={{ opacity: 0, x: -20 }}
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
@@ -47,7 +47,7 @@ function Barbers() {
                       </p>
                     </motion.div>
                     <motion.div
-                      initial={{ opacity: 0, x: 50 }}
+                      initial={{ opacity: 0, x: 20 }}
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
@@ -89,7 +89,7 @@ function Barbers() {
                     <p className="my-4 text-center text-light">
                       <motion.div
                         className="font-change"
-                        initial={{ opacity: 0, y: 50 }}
+                        initial={{ opacity: 0, y: 20 }}
                         transition={{ duration: 1 }}
                         whileInView={{ y: 0, opacity: 1 }}
                       >
@@ -100,7 +100,7 @@ function Barbers() {
                     <p className="my-4 text-center text-primary">
                       <motion.div
                         className="font-change"
-                        initial={{ opacity: 0, y: 50 }}
+                        initial={{ opacity: 0, y: 20 }}
                         transition={{ duration: 1 }}
                         whileInView={{ y: 0, opacity: 1 }}
                       >
@@ -150,7 +150,7 @@ function Barbers() {
                     <p className="my-4 text-center text-light">
                       <motion.div
                         className="font-change"
-                        initial={{ opacity: 0, y: 50 }}
+                        initial={{ opacity: 0, y: 20 }}
                         transition={{ duration: 1 }}
                         whileInView={{ y: 0, opacity: 1 }}
                       >
@@ -161,7 +161,7 @@ function Barbers() {
                     <p className="my-4 text-center text-primary">
                       <motion.div
                         className="font-change"
-                        initial={{ opacity: 0, y: 50 }}
+                        initial={{ opacity: 0, y: 20 }}
                         transition={{ duration: 1 }}
                         whileInView={{ y: 0, opacity: 1 }}
                       >
@@ -179,7 +179,7 @@ function Barbers() {
                 >
                   <div className="pb-5 text-center">
                     <motion.div
-                      initial={{ opacity: 0, x: 50 }}
+                      initial={{ opacity: 0, x: 20 }}
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
@@ -188,7 +188,7 @@ function Barbers() {
                       </p>
                     </motion.div>
                     <motion.div
-                      initial={{ opacity: 0, x: -50 }}
+                      initial={{ opacity: 0, x: -20 }}
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
@@ -199,7 +199,7 @@ function Barbers() {
                       </p>
                     </motion.div>
                     <motion.div
-                      initial={{ opacity: 0, x: 50 }}
+                      initial={{ opacity: 0, x: 20 }}
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
