@@ -33,7 +33,7 @@ function Location() {
                 whileHover={{
                   boxShadow: '0px 0px 20px rgb(255, 255, 255)',
                 }}
-                initial={{ opacity: 0, x: -100 }}
+                initial={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.8 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.496136760547!2d174.91503366063242!3d-41.223369735726585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38aa43fdc7206d%3A0xc266558213600c39!2sFresh%20%26%20Faded%20BARBERSHOP!5e0!3m2!1sen!2snz!4v1707807960468!5m2!1sen!2snz"
@@ -61,7 +61,7 @@ function Location() {
                   aria-expanded={open}
                   variants={buttonHoverVariant}
                   whileHover="hover"
-                  initial={{ opacity: 0, x: -100 }}
+                  initial={{ opacity: 0, x: -20 }}
                   transition={{ duration: 0.8 }}
                   whileInView={{ x: 0, opacity: 1 }}
                 >
@@ -70,7 +70,7 @@ function Location() {
                 <Fade in={shopOpen}>
                   <div id="example-fade-text">
                     <motion.div
-                      initial={{ opacity: 0, x: -100 }}
+                      initial={{ opacity: 0, x: -20 }}
                       transition={{ duration: 0.8 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
@@ -143,7 +143,7 @@ function Location() {
                   aria-expanded={open}
                   variants={buttonHoverVariant}
                   whileHover="hover"
-                  initial={{ opacity: 0, x: 100 }}
+                  initial={{ opacity: 0, x: 20 }}
                   transition={{ duration: 0.8 }}
                   whileInView={{ x: 0, opacity: 1 }}
                 >
@@ -152,7 +152,7 @@ function Location() {
                 <Fade in={walkOpen}>
                   <div id="example-fade-texts">
                     <motion.div
-                      initial={{ opacity: 0, x: 100 }}
+                      initial={{ opacity: 0, x: 20 }}
                       transition={{ duration: 0.8 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
@@ -213,7 +213,7 @@ function Location() {
               </div>
               <motion.div
                 className="text-center"
-                initial={{ opacity: 0, y: -100 }}
+                initial={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.8 }}
                 whileInView={{ y: 0, opacity: 1 }}
               >
