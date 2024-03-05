@@ -88,7 +88,7 @@ function Footer() {
             }}
             variants={buttonHoverVariant}
             whileHover="hover"
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: 20 }}
             transition={{ duration: 0.8 }}
             whileInView={{ x: 0, opacity: 1 }}
             type="submit"
