@@ -99,7 +99,7 @@ function About() {
                   <p className="my-4 text-center text-light">
                     <motion.div
                       className="font-change"
-                      initial={{ opacity: 0, y: 50 }}
+                      initial={{ opacity: 0, y: 30 }}
                       transition={{ duration: 1 }}
                       whileInView={{ y: 0, opacity: 1 }}
                     >
@@ -110,7 +110,7 @@ function About() {
                   <p className="my-4 text-center text-primary">
                     <motion.div
                       className="font-change"
-                      initial={{ opacity: 0, y: 50 }}
+                      initial={{ opacity: 0, y: 30 }}
                       transition={{ duration: 1 }}
                       whileInView={{ y: 0, opacity: 1 }}
                     >
@@ -127,14 +127,14 @@ function About() {
                 >
                   <div className="pb-3">
                     <motion.div
-                      initial={{ opacity: 0, x: 50 }}
+                      initial={{ opacity: 0, x: 20 }}
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
                       <h1>
                         <motion.div
                           className="display-3 font-change text-primary text-center"
-                          initial={{ opacity: 0, y: -50 }}
+                          initial={{ opacity: 0, y: -20 }}
                           transition={{ duration: 1 }}
                           whileInView={{ y: 0, opacity: 1 }}
                         >
@@ -144,7 +144,7 @@ function About() {
                       <h1>
                         <motion.div
                           className="display-5 font-change text-secondary text-center"
-                          initial={{ opacity: 0, y: -50 }}
+                          initial={{ opacity: 0, y: -20 }}
                           transition={{ duration: 1 }}
                           whileInView={{ y: 0, opacity: 1 }}
                         >
@@ -158,7 +158,7 @@ function About() {
                       </p>
                     </motion.div>
                     <motion.div
-                      initial={{ opacity: 0, x: -50 }}
+                      initial={{ opacity: 0, x: -20 }}
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
@@ -167,7 +167,7 @@ function About() {
                       </p>
                     </motion.div>
                     <motion.div
-                      initial={{ opacity: 0, x: 50 }}
+                      initial={{ opacity: 0, x: 20 }}
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
@@ -188,7 +188,7 @@ function About() {
                         aria-expanded={open}
                         variants={buttonHoverVariant}
                         whileHover="hover"
-                        initial={{ opacity: 0, y: 100 }}
+                        initial={{ opacity: 0, y: 50 }}
                         transition={{ duration: 0.8 }}
                         whileInView={{ y: 0, opacity: 1 }}
                       >
