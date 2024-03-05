@@ -27,7 +27,7 @@ function Services() {
           <div className="row justify-content-center align-items-center reverse-col">
             <div className="col-md-5 text-center text-md-start">
               <motion.div
-                initial={{ opacity: 0, x: -100 }}
+                initial={{ opacity: 0, x: -20 }}
                 transition={{ duration: 1.5 }}
                 whileInView={{ x: 0, opacity: 1 }}
               >
@@ -49,7 +49,7 @@ function Services() {
                   aria-expanded={open}
                   variants={buttonHoverVariant}
                   whileHover="hover"
-                  initial={{ opacity: 0, x: -100 }}
+                  initial={{ opacity: 0, x: -20 }}
                   transition={{ duration: 0.8 }}
                   whileInView={{ x: 0, opacity: 1 }}
                 >
@@ -66,7 +66,7 @@ function Services() {
                   className="img-fluid"
                   src="client/styles/images/walk-in.png"
                   alt="Walk in open door"
-                  initial={{ opacity: 0, x: 100 }}
+                  initial={{ opacity: 0, x: 20 }}
                   transition={{ duration: 1.5 }}
                   whileInView={{ x: 0, opacity: 1 }}
                 />
@@ -81,14 +81,14 @@ function Services() {
                 className="img-fluid"
                 src="client/styles/images/haircut1.png"
                 alt="barber giving haircut"
-                initial={{ opacity: 0, x: -100 }}
+                initial={{ opacity: 0, x: -20 }}
                 transition={{ duration: 1.5 }}
                 whileInView={{ x: 0, opacity: 1 }}
               />
             </div>
             <div className="col-md-5 text-center text-md-end">
               <motion.div
-                initial={{ opacity: 0, x: 100 }}
+                initial={{ opacity: 0, x: 20 }}
                 transition={{ duration: 1.5 }}
                 whileInView={{ x: 0, opacity: 1 }}
               >
@@ -107,7 +107,7 @@ function Services() {
           <div className="row justify-content-center align-items-center reverse-col">
             <div className="col-md-5 text-center text-md-start pb-3">
               <motion.div
-                initial={{ opacity: 0, x: -100 }}
+                initial={{ opacity: 0, x: -20 }}
                 transition={{ duration: 1.5 }}
                 whileInView={{ x: 0, opacity: 1 }}
               >
@@ -128,7 +128,7 @@ function Services() {
                   className="img-fluid"
                   src="client/styles/images/featured.png"
                   alt="Orange star symbol"
-                  initial={{ opacity: 0, x: 100 }}
+                  initial={{ opacity: 0, x: 20 }}
                   transition={{ duration: 1.5 }}
                   whileInView={{ x: 0, opacity: 1 }}
                 />
@@ -143,14 +143,14 @@ function Services() {
                 className="img-fluid"
                 src="client/styles/images/beard1.png"
                 alt="Skull with beard"
-                initial={{ opacity: 0, x: -100 }}
+                initial={{ opacity: 0, x: -20 }}
                 transition={{ duration: 1.5 }}
                 whileInView={{ x: 0, opacity: 1 }}
               />
             </div>
             <div className="col-md-5 text-center text-md-end">
               <motion.div
-                initial={{ opacity: 0, x: 100 }}
+                initial={{ opacity: 0, x: 20 }}
                 transition={{ duration: 1.5 }}
                 whileInView={{ x: 0, opacity: 1 }}
               >
@@ -168,7 +168,7 @@ function Services() {
           <div className="row justify-content-center align-items-center reverse-col">
             <div className="col-md-5 text-center text-md-start pb-3">
               <motion.div
-                initial={{ opacity: 0, x: -100 }}
+                initial={{ opacity: 0, x: -20 }}
                 transition={{ duration: 1.5 }}
                 whileInView={{ x: 0, opacity: 1 }}
               >
@@ -189,7 +189,7 @@ function Services() {
                   className="img-fluid"
                   src="client/styles/images/combo1.png"
                   alt="Father holding son's hand"
-                  initial={{ opacity: 0, x: 100 }}
+                  initial={{ opacity: 0, x: 20 }}
                   transition={{ duration: 1.5 }}
                   whileInView={{ x: 0, opacity: 1 }}
                 />
