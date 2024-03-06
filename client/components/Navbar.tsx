@@ -40,6 +40,7 @@ function Navigation() {
           </Navbar.Brand>
           <Navbar.Brand href="/">
             <motion.div
+              className="font-change"
               variants={containerVariants}
               initial="hidden"
               animate="visible"

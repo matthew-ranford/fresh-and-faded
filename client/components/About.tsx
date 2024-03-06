@@ -131,26 +131,20 @@ function About() {
                       transition={{ duration: 1 }}
                       whileInView={{ x: 0, opacity: 1 }}
                     >
-                      <h1>
-                        <motion.div
-                          className="display-3 font-change text-primary text-center"
-                          initial={{ opacity: 0, y: -20 }}
-                          transition={{ duration: 1 }}
-                          whileInView={{ y: 0, opacity: 1 }}
-                        >
-                          Fresh & Faded
-                        </motion.div>
-                      </h1>
-                      <h1>
-                        <motion.div
-                          className="display-5 font-change text-secondary text-center"
-                          initial={{ opacity: 0, y: -20 }}
-                          transition={{ duration: 1 }}
-                          whileInView={{ y: 0, opacity: 1 }}
-                        >
-                          Barbershop
-                        </motion.div>
-                      </h1>
+                      <motion.div
+                        className="display-3 font-change text-primary text-center"
+                        initial={{ opacity: 0, y: -20 }}
+                        transition={{ duration: 1 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                      >
+                        <motion.img
+                          className="about-img"
+                          src="client/styles/images/about-header-img.png"
+                          height={'200px'}
+                          width={'400px'}
+                          alt="Fresh & Faded Barbershop"
+                        />
+                      </motion.div>
 
                       <p className="lead my-4 text-light pt-1 text-center">
                         Come in for a fresh cut, nice fade, beard trim or a cut

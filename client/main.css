@@ -91,6 +91,12 @@ img.d-inline-block.align-top:hover {
   font-family: 'Merienda', cursive;
 }
 
+@media (max-width: 450px) {
+  .about-img {
+    width: 300px;
+  }
+}
+
 /* .container-lg {
   background-color: black;
 } */
