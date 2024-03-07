@@ -18,7 +18,13 @@ function Services() {
           transition={{ duration: 0.8 }}
           whileInView={{ y: 0, opacity: 1 }}
         >
-          <h2 className=" display-4 text-primary">Services</h2>
+          <motion.img
+            className="responsive-img"
+            src="client/styles/images/services.png"
+            height={'auto'}
+            width={'1000px'}
+            alt="Fresh & Faded Barbershop"
+          />
           <p className="lead text-light mb-4 pb-3">
             Checkout the services we offer before making a booking!
           </p>
@@ -32,7 +38,9 @@ function Services() {
                 whileInView={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div className="display-5 text-primary">Walk-Ins</div>
+                  <div className="display-5 text-primary services-font-change">
+                    WALK-INS
+                  </div>
                 </h1>
                 <p className="lead my-4 text-light">
                   Check out our current walk-in times!
@@ -93,7 +101,9 @@ function Services() {
                 whileInView={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div className="display-5 text-primary">Haircut</div>
+                  <div className="display-5 text-primary services-font-change">
+                    HAIRCUT
+                  </div>
                 </h1>
 
                 <p className="lead my-4 text-light">
@@ -112,7 +122,9 @@ function Services() {
                 whileInView={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div className="display-5 text-primary">Featured</div>
+                  <div className="display-5 text-primary services-font-change">
+                    FEATURED
+                  </div>
                 </h1>
                 <p className="lead my-4 text-light">
                   Check out many of our featured services that we have on offer!
@@ -155,7 +167,9 @@ function Services() {
                 whileInView={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div className="display-5 text-primary">Beard</div>
+                  <div className="display-5 text-primary services-font-change">
+                    BEARD
+                  </div>
                 </h1>
                 <p className="lead my-4 text-light">
                   Check out many of our beard services that we have on offer!
@@ -173,7 +187,9 @@ function Services() {
                 whileInView={{ x: 0, opacity: 1 }}
               >
                 <h1>
-                  <div className="display-5 text-primary ">Combo</div>
+                  <div className="display-5 text-primary services-font-change">
+                    COMBO
+                  </div>
                 </h1>
                 <p className="lead my-4 text-light">
                   Check out our combo services that we have on offer!

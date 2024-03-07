@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Signika+Negative:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Merienda:wght@300..900&display=swap');
 
 * {
   margin: 0;
@@ -91,6 +92,11 @@ img.d-inline-block.align-top:hover {
   font-family: 'Merienda', cursive;
 }
 
+.services-font-change {
+  font-family: 'Dancing Script', cursive;
+  font-optical-sizing: auto;
+}
+
 @media (max-width: 885px) {
   .about-img {
     width: 300px;
@@ -98,19 +104,19 @@ img.d-inline-block.align-top:hover {
 }
 
 @media (max-width: 950px) {
-  .barbers-img {
+  .responsive-img {
     width: 500px;
   }
 }
 
 @media (max-width: 600px) {
-  .barbers-img {
+  .responsive-img {
     width: 450px;
   }
 }
 
 @media (max-width: 450px) {
-  .barbers-img {
+  .responsive-img {
     width: 300px;
   }
 }

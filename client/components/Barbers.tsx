@@ -17,9 +17,9 @@ function Barbers() {
               whileInView={{ y: 0, opacity: 1 }}
             >
               <motion.img
-                className="barbers-img"
+                className="responsive-img"
                 src="client/styles/images/meet-barbers.png"
-                height={'200px'}
+                height={'auto'}
                 width={'1000px'}
                 alt="Fresh & Faded Barbershop"
               />

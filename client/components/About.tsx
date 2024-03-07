@@ -140,7 +140,7 @@ function About() {
                         <motion.img
                           className="about-img"
                           src="client/styles/images/about-header-img.png"
-                          height={'200px'}
+                          height={'auto'}
                           width={'400px'}
                           alt="Fresh & Faded Barbershop"
                         />
