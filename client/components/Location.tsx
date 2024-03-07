@@ -71,7 +71,7 @@ function Location() {
                   transition={{ duration: 0.8 }}
                   whileInView={{ x: 0, opacity: 1 }}
                 >
-                  Barbershop Hours!
+                  Barbershop Hours
                 </motion.button>
                 <Fade in={shopOpen}>
                   <div id="example-fade-text">
@@ -153,7 +153,7 @@ function Location() {
                   transition={{ duration: 0.8 }}
                   whileInView={{ x: 0, opacity: 1 }}
                 >
-                  Walk-in Hours!
+                  Walk-in Hours
                 </motion.button>
                 <Fade in={walkOpen}>
                   <div id="example-fade-texts">
@@ -223,6 +223,28 @@ function Location() {
                 transition={{ duration: 0.8 }}
                 whileInView={{ y: 0, opacity: 1 }}
               >
+                <div className="text-center pt-2 pb-4">
+                  <motion.a
+                    href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-primary px-3 py-2 "
+                    style={{
+                      background: '#272727',
+                      color: 'white',
+                      borderColor: 'white',
+                    }}
+                    aria-controls="example-collapse-text"
+                    aria-expanded={open}
+                    variants={buttonHoverVariant}
+                    whileHover="hover"
+                    initial={{ opacity: 0, y: 50 }}
+                    transition={{ duration: 0.8 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                  >
+                    Make a Booking
+                  </motion.a>
+                </div>
                 <p className="text-light">
                   *For after-hours bookings, send us a DM on
                   <motion.a
