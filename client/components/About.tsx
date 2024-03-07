@@ -146,7 +146,7 @@ function About() {
                         />
                       </motion.div>
 
-                      <p className="lead my-4 text-light pt-1 text-center">
+                      <p className="lead my-2 text-light pt-1 text-center">
                         Come in for a fresh cut, nice fade, beard trim or a cut
                         throat shave!
                       </p>
