@@ -92,7 +92,8 @@ img.d-inline-block.align-top:hover {
   font-family: 'Merienda', cursive;
 }
 
-.services-font-change {
+.services-font-change,
+.nav-header-font-change {
   font-family: 'Dancing Script', cursive;
   font-optical-sizing: auto;
 }
