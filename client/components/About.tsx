@@ -139,9 +139,9 @@ function About() {
                       >
                         <motion.img
                           className="about-img"
-                          src="client/styles/images/about-header-img.png"
+                          src="client/styles/images/about-header-image.png"
                           height={'auto'}
-                          width={'400px'}
+                          width={'450px'}
                           alt="Fresh & Faded Barbershop"
                         />
                       </motion.div>
