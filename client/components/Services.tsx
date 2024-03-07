@@ -61,7 +61,7 @@ function Services() {
                   transition={{ duration: 0.8 }}
                   whileInView={{ x: 0, opacity: 1 }}
                 >
-                  Hours!
+                  Hours
                 </motion.a>
               </motion.div>
             </div>
@@ -231,7 +231,7 @@ function Services() {
             target="_blank"
             rel="noreferrer"
           >
-            Check Services!
+            Check Services
           </motion.a>
         </div>
       </section>
