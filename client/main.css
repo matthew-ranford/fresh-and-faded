@@ -91,8 +91,26 @@ img.d-inline-block.align-top:hover {
   font-family: 'Merienda', cursive;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 885px) {
   .about-img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 950px) {
+  .barbers-img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .barbers-img {
+    width: 450px;
+  }
+}
+
+@media (max-width: 450px) {
+  .barbers-img {
     width: 300px;
   }
 }

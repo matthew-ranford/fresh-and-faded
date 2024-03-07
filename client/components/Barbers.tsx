@@ -16,7 +16,13 @@ function Barbers() {
               transition={{ duration: 0.8 }}
               whileInView={{ y: 0, opacity: 1 }}
             >
-              <h2 className=" display-4 text-primary">Meet The Barbers</h2>
+              <motion.img
+                className="barbers-img"
+                src="client/styles/images/meet-barbers.png"
+                height={'200px'}
+                width={'1000px'}
+                alt="Fresh & Faded Barbershop"
+              />
             </motion.div>
             <div className="row justify-content-center align-items-center reverse-col">
               <div className="col-md-5 px-5 text-center text-md-start">
