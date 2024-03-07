@@ -24,7 +24,13 @@ function Location() {
           transition={{ duration: 0.8 }}
           whileInView={{ y: 0, opacity: 1 }}
         >
-          <h2 className="display-4 text-primary">Hours & Location</h2>
+          <motion.img
+            className="responsive-img"
+            src="client/styles/images/hours-location-header.png"
+            height={'auto'}
+            width={'1000px'}
+            alt="Fresh & Faded Barbershop"
+          />
         </motion.div>
         <div className="container-lg mb-5">
           <div className="row justify-content-center align-items-center">
