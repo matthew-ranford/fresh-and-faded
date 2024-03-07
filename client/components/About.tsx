@@ -33,9 +33,6 @@ function About() {
                       <motion.img
                         initial={{ y: -20, opacity: -3 }}
                         transition={{ duration: 1 }}
-                        whileHover={{
-                          boxShadow: '0px 0px 20px rgb(255, 255, 255)',
-                        }}
                         whileInView={{ y: 0, opacity: 1 }}
                         drag
                         dragConstraints={{
