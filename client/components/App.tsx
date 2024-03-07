@@ -9,9 +9,9 @@ import Footer from './Footer'
 function App() {
   return (
     <>
+      <Navigation />
+      <About />
       <div className="background">
-        <Navigation />
-        <About />
         <Services />
         <Gallery />
         <Contact />

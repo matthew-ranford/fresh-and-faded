@@ -25,7 +25,7 @@ function Services() {
             width={'1000px'}
             alt="Fresh & Faded Barbershop"
           />
-          <p className="lead text-light mb-4 pb-3">
+          <p className="lead text-light mb-4 pb-3 pt-4">
             Checkout the services we offer before making a booking!
           </p>
         </motion.div>
@@ -39,7 +39,7 @@ function Services() {
               >
                 <h1>
                   <div className="display-5 text-primary services-font-change">
-                    WALK-INS
+                    Walk-Ins
                   </div>
                 </h1>
                 <p className="lead my-4 text-light">
@@ -102,7 +102,7 @@ function Services() {
               >
                 <h1>
                   <div className="display-5 text-primary services-font-change">
-                    HAIRCUT
+                    Haircut
                   </div>
                 </h1>
 
@@ -123,7 +123,7 @@ function Services() {
               >
                 <h1>
                   <div className="display-5 text-primary services-font-change">
-                    FEATURED
+                    Featured
                   </div>
                 </h1>
                 <p className="lead my-4 text-light">
@@ -168,7 +168,7 @@ function Services() {
               >
                 <h1>
                   <div className="display-5 text-primary services-font-change">
-                    BEARD
+                    Beard
                   </div>
                 </h1>
                 <p className="lead my-4 text-light">
@@ -188,7 +188,7 @@ function Services() {
               >
                 <h1>
                   <div className="display-5 text-primary services-font-change">
-                    COMBO
+                    Combo
                   </div>
                 </h1>
                 <p className="lead my-4 text-light">
