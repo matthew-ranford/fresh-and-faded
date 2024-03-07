@@ -183,7 +183,7 @@ function About() {
                         transition={{ duration: 0.8 }}
                         whileInView={{ y: 0, opacity: 1 }}
                       >
-                        Barbershop Hours!
+                        Barbershop Hours
                       </motion.a>
                     </div>
                   </div>
