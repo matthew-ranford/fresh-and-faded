@@ -19,7 +19,13 @@ function Contact() {
             transition={{ duration: 0.8 }}
             whileInView={{ y: 0, opacity: 1 }}
           >
-            <h2 className="display-4 text-primary">Get in Touch</h2>
+            <motion.img
+              className="responsive-img"
+              src="client/styles/images/contact.png"
+              height={'auto'}
+              width={'1000px'}
+              alt="Fresh & Faded Barbershop"
+            />
             <p className="lead text-dark">
               Questions? Fill out the form to contact me directly!
             </p>
