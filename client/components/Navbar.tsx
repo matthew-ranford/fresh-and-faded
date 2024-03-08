@@ -28,7 +28,7 @@ function Navigation() {
         className="justify-content-center fixed-top"
       >
         <Container className="container">
-          <Navbar.Brand href="/">
+          <Navbar.Brand>
             <motion.img
               variants={containerVariants}
               initial="hidden"

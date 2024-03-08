@@ -66,7 +66,7 @@ function About() {
                         className="img-fluid"
                         style={{ borderRadius: '50%' }}
                         src="client/styles/images/van-company-logo.png"
-                        alt="Barbershop card"
+                        alt="Barbershop van"
                         text="Company card"
                       />
                     </Carousel.Item>
@@ -88,7 +88,7 @@ function About() {
                         className="img-fluid"
                         style={{ borderRadius: '50%' }}
                         src="client/styles/images/barbershop-shop.png"
-                        alt="Barbershop card"
+                        alt="Barbershop building"
                         text="Company card"
                       />
                     </Carousel.Item>

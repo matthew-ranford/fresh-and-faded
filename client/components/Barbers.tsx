@@ -21,7 +21,7 @@ function Barbers() {
                 src="client/styles/images/meet-barbers.png"
                 height={'auto'}
                 width={'1000px'}
-                alt="Fresh & Faded Barbershop"
+                alt="Meet The Barbers"
               />
             </motion.div>
             <div className="row justify-content-center align-items-center reverse-col">
@@ -90,7 +90,7 @@ function Barbers() {
                       className="img-fluid"
                       style={{ borderRadius: '5%' }}
                       src="client/styles/images/barber-card-logo.png"
-                      alt="Barbershop card"
+                      alt="Photo of Jamie"
                     />
                     <p className="my-4 text-center text-light">
                       <motion.div
@@ -151,7 +151,7 @@ function Barbers() {
                       className="img-fluid"
                       style={{ borderRadius: '5%' }}
                       src="client/styles/images/barber-card-logo.png"
-                      alt="Barbershop card"
+                      alt="Photo of Makani"
                     />
                     <p className="my-4 text-center text-light">
                       <motion.div

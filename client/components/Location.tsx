@@ -29,7 +29,7 @@ function Location() {
             src="client/styles/images/hours-location-header.png"
             height={'auto'}
             width={'1000px'}
-            alt="Fresh & Faded Barbershop"
+            alt="Hours and Location"
           />
         </motion.div>
         <div className="container-lg mb-5">
@@ -235,6 +235,7 @@ function Location() {
                       borderColor: 'white',
                     }}
                     aria-controls="example-collapse-text"
+                    aria-label="Link to booking page"
                     aria-expanded={open}
                     variants={buttonHoverVariant}
                     whileHover="hover"

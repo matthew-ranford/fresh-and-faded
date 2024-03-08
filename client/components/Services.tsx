@@ -23,7 +23,7 @@ function Services() {
             src="client/styles/images/services.png"
             height={'auto'}
             width={'1000px'}
-            alt="Fresh & Faded Barbershop"
+            alt="Services We Have"
           />
           <p className="lead text-light mb-4 pb-3 pt-4">
             Checkout the services we offer before making a booking!
@@ -228,6 +228,7 @@ function Services() {
             whileInView={{ y: 0, opacity: 1 }}
             type="submit"
             href="https://www.fresha.com/a/fresh-and-faded-barbershop-lower-hutt-1-wainui-road-43fb475l/booking?menu=true"
+            aria-label="Link to booking page"
             target="_blank"
             rel="noreferrer"
           >

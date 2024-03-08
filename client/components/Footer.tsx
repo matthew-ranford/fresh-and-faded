@@ -96,6 +96,7 @@ function Footer() {
             whileInView={{ x: 0, opacity: 1 }}
             type="submit"
             href="https://www.google.com/search?hl=en-NZ&gl=nz&q=Fresh+%26+Faded+BARBERSHOP+1+Wainui+Road,+Waiwhetu,+Lower+Hutt+5010&ludocid=14007977708141677625&lsig=AB86z5VRjJzEzTiU32DsLrIWA1K8&hl=en&gl=NZ#lrd=0x6d38aa43fdc7206d:0xc266558213600c39,1"
+            aria-label="Link to review page"
             target="_blank"
             rel="noreferrer"
           >
