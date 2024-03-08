@@ -41,6 +41,7 @@ function Footer() {
               whileInView="inView"
               style={{ color: 'rgb(180, 34, 34)' }}
               href="https://www.facebook.com/FreshandFadedBarberShop"
+              aria-label="link to facebook page"
               target="_blank"
               rel="noreferrer"
             >
@@ -57,6 +58,7 @@ function Footer() {
               whileInView="inView"
               style={{ color: 'rgb(180, 34, 34)' }}
               href="https://www.instagram.com/freshandfaded17/"
+              aria-label="link to instagram page"
               target="_blank"
               rel="noreferrer"
             >
@@ -72,6 +74,7 @@ function Footer() {
               transition={{ duration: 2 }}
               whileInView="inView"
               href="tel: 021 243 7374"
+              aria-label="telephone number"
               style={{ color: 'rgb(180, 34, 34)' }}
             >
               <i className="bi bi-telephone display-5"></i>
