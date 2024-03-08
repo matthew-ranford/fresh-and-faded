@@ -18,7 +18,7 @@ function Gallery() {
               alt=""
             />
             <Carousel.Caption>
-              <h3 className="text-primary">First slide label</h3>
+              <h1 className="text-primary">First slide label</h1>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -30,7 +30,7 @@ function Gallery() {
               alt=""
             />
             <Carousel.Caption>
-              <h3 className="text-primary">Second slide label</h3>
+              <h1 className="text-primary">Second slide label</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -42,7 +42,7 @@ function Gallery() {
               alt=""
             />
             <Carousel.Caption>
-              <h3 className="text-primary">Third slide label</h3>
+              <h1 className="text-primary">Third slide label</h1>
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
@@ -56,7 +56,7 @@ function Gallery() {
               alt=""
             />
             <Carousel.Caption>
-              <h3 className="text-primary">Fourth slide label</h3>
+              <h1 className="text-primary">Fourth slide label</h1>
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
@@ -70,7 +70,7 @@ function Gallery() {
               alt=""
             />
             <Carousel.Caption>
-              <h3 className="text-primary">Fifth slide label</h3>
+              <h1 className="text-primary">Fifth slide label</h1>
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
