@@ -13,8 +13,10 @@ function App() {
       <About />
       <div className="background">
         <Services />
-        <Gallery />
-        <Contact />
+      </div>
+      <Gallery />
+      <Contact />
+      <div className="background">
         <Location />
         <Footer />
       </div>

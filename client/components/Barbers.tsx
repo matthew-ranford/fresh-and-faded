@@ -160,7 +160,7 @@ function Barbers() {
                         transition={{ duration: 1 }}
                         whileInView={{ y: 0, opacity: 1 }}
                       >
-                        Other barber name here
+                        Makani
                       </motion.div>
                     </p>
 
