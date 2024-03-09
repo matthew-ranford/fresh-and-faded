@@ -19,7 +19,7 @@ function Location() {
     <>
       <section id="hours" className="location-section pb-5">
         <motion.div
-          className="text-center pb-5"
+          className="text-center pb-5 pt-5"
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.8 }}
           whileInView={{ y: 0, opacity: 1 }}

@@ -31,7 +31,7 @@ function Contact() {
             </p>
           </motion.div>
 
-          <div className="row justify-content-center my-5">
+          <div className="row justify-content-center">
             <div className="col-lg-6">
               <form>
                 <label htmlFor="email" className="form-label text-dark">
