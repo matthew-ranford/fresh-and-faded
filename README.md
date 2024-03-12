@@ -1,13 +1,14 @@
 # Fresh & Faded Barbershop 
 
 ## Initial Design In Progress
-- Working branch is currently V2
+- v2 has now been merged to main and waiting on further information to updated the application 
 
 ## New Technologies I'm Trialing
 - Bootstrap
 - React Bootstrap 
 - Sass
 - Framer-Motion
+- Canva
 
 ## Packages Included
 
