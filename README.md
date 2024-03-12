@@ -1,7 +1,9 @@
 # Fresh & Faded Barbershop 
 
 ## Initial Design In Progress
-- v2 has now been merged to main and waiting on further information to update the application 
+- v2 has now been merged to main and waiting on further information to update the application
+
+- For this application, i'm building a site for my friends barbershop business and trying to integrate new technologies while making a site that represents him and his business well! 
 
 ## New Technologies I'm Trialing
 - Bootstrap
