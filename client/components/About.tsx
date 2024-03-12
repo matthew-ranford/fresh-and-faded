@@ -34,13 +34,6 @@ function About() {
                         initial={{ y: -20, opacity: -3 }}
                         transition={{ duration: 1 }}
                         whileInView={{ y: 0, opacity: 1 }}
-                        drag
-                        dragConstraints={{
-                          top: -20,
-                          left: -20,
-                          right: 20,
-                          bottom: 20,
-                        }}
                         className="img-fluid"
                         style={{ borderRadius: '50%' }}
                         src="client/styles/images/barber-card-logo.png"
@@ -52,17 +45,7 @@ function About() {
                       <motion.img
                         initial={{ y: -20, opacity: -3 }}
                         transition={{ duration: 1 }}
-                        whileHover={{
-                          boxShadow: '0px 0px 20px rgb(255, 255, 255)',
-                        }}
                         whileInView={{ y: 0, opacity: 1 }}
-                        drag
-                        dragConstraints={{
-                          top: -20,
-                          left: -20,
-                          right: 20,
-                          bottom: 20,
-                        }}
                         className="img-fluid"
                         style={{ borderRadius: '50%' }}
                         src="client/styles/images/van-company-logo.png"
@@ -74,17 +57,7 @@ function About() {
                       <motion.img
                         initial={{ y: -20, opacity: -3 }}
                         transition={{ duration: 1 }}
-                        whileHover={{
-                          boxShadow: '0px 0px 20px rgb(255, 255, 255)',
-                        }}
                         whileInView={{ y: 0, opacity: 1 }}
-                        drag
-                        dragConstraints={{
-                          top: -20,
-                          left: -20,
-                          right: 20,
-                          bottom: 20,
-                        }}
                         className="img-fluid"
                         style={{ borderRadius: '50%' }}
                         src="client/styles/images/barbershop-shop.png"
