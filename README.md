@@ -1,7 +1,7 @@
 # Fresh & Faded Barbershop 
 
 ## Initial Design In Progress
-- v2 has now been merged to main and waiting on further information to updated the application 
+- v2 has now been merged to main and waiting on further information to update the application 
 
 ## New Technologies I'm Trialing
 - Bootstrap
