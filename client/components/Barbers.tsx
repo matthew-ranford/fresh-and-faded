@@ -1,5 +1,9 @@
 import { motion } from 'framer-motion'
 
+import meetBarbers from '../styles/images/meet-barbers.png'
+import barberOne from '../styles/images/barber-card-logo.png'
+import barberTwo from '../styles/images/barber-card-logo.png'
+
 function Barbers() {
   return (
     <>
@@ -18,7 +22,7 @@ function Barbers() {
             >
               <motion.img
                 className="responsive-img"
-                src="client/styles/images/meet-barbers.png"
+                src={meetBarbers}
                 height={'auto'}
                 width={'1000px'}
                 alt="Meet The Barbers"
@@ -89,7 +93,7 @@ function Barbers() {
                       }}
                       className="img-fluid"
                       style={{ borderRadius: '5%' }}
-                      src="client/styles/images/barber-card-logo.png"
+                      src={barberOne}
                       alt="Photo of Jamie"
                     />
                     <p className="my-4 text-center text-light">
@@ -150,7 +154,7 @@ function Barbers() {
                       }}
                       className="img-fluid"
                       style={{ borderRadius: '5%' }}
-                      src="client/styles/images/barber-card-logo.png"
+                      src={barberTwo}
                       alt="Photo of Makani"
                     />
                     <p className="my-4 text-center text-light">
