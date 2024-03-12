@@ -3,6 +3,8 @@ import { useState } from 'react'
 import Fade from 'react-bootstrap/Fade'
 import { motion } from 'framer-motion'
 
+import locationHeader from '../styles/images/hours-location-header.png'
+
 const buttonHoverVariant = {
   hover: {
     scale: [1, 1.2, 1, 1.2, 1],
@@ -26,7 +28,7 @@ function Location() {
         >
           <motion.img
             className="responsive-img"
-            src="client/styles/images/hours-location-header.png"
+            src={locationHeader}
             height={'auto'}
             width={'1000px'}
             alt="Hours and Location"
