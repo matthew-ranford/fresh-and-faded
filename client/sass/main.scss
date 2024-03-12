@@ -1,0 +1,34 @@
+// Custom variables
+// Text colours
+$primary: rgb(194, 16, 16);
+$secondary: rgb(33, 124, 243);
+$nav-header: rgb(255, 255, 255);
+$link-hover-color: rgb(255, 255, 255);
+$nav-toggle: rgba(207, 206, 206, 0.363);
+
+// Navbar item active colour
+a.nav-link.mx-lg-2.active {
+  color: $primary;
+}
+
+// Navbar item hover colour
+a.nav-link:hover {
+  color: $link-hover-color;
+}
+
+// Navbar brand header colour
+a.navbar-brand {
+  color: $nav-header;
+}
+
+a.navbar-brand:hover {
+  color: $primary;
+  transition: ease-out 0.7s;
+}
+
+// Navbar button
+button.navbar-toggler.collapsed {
+  background-color: $nav-toggle;
+}
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
