@@ -1,6 +1,6 @@
 {
   "homepage": "https://matthew-ranford.github.io/fresh-and-faded",
-  "name": "boilerplate-react",
+  "name": "fresh-and-faded",
   "type": "module",
   "version": "0.2.0",
   "description": "React!",
@@ -9,7 +9,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "test": "vitest",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
