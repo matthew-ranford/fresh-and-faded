@@ -1,5 +1,12 @@
 import { motion } from 'framer-motion'
 
+import servicesHeader from '../styles/images/services.png'
+import walkIn from '../styles/images/walk-in.png'
+import haircut from '../styles/images/haircut1.png'
+import featured from '../styles/images/featured.png'
+import beard from '../styles/images/beard1.png'
+import combo from '../styles/images/combo1.png'
+
 const buttonHoverVariant = {
   hover: {
     scale: [1, 1.2, 1, 1.2, 1],
@@ -20,7 +27,7 @@ function Services() {
         >
           <motion.img
             className="responsive-img"
-            src="client/styles/images/services.png"
+            src={servicesHeader}
             height={'auto'}
             width={'1000px'}
             alt="Services We Have"
@@ -72,7 +79,7 @@ function Services() {
               <div className="d-md-block">
                 <motion.img
                   className="img-fluid"
-                  src="client/styles/images/walk-in.png"
+                  src={walkIn}
                   alt="Walk in open door"
                   initial={{ opacity: 0, x: 20 }}
                   transition={{ duration: 1.5 }}
@@ -87,7 +94,7 @@ function Services() {
             <div className="col-md-7 d-md-block">
               <motion.img
                 className="img-fluid"
-                src="client/styles/images/haircut1.png"
+                src={haircut}
                 alt="barber giving haircut"
                 initial={{ opacity: 0, x: -20 }}
                 transition={{ duration: 1.5 }}
@@ -138,7 +145,7 @@ function Services() {
               <div className="d-md-block">
                 <motion.img
                   className="img-fluid"
-                  src="client/styles/images/featured.png"
+                  src={featured}
                   alt="Orange star symbol"
                   initial={{ opacity: 0, x: 20 }}
                   transition={{ duration: 1.5 }}
@@ -153,7 +160,7 @@ function Services() {
             <div className="col-md-7 d-md-block">
               <motion.img
                 className="img-fluid"
-                src="client/styles/images/beard1.png"
+                src={beard}
                 alt="Skull with beard"
                 initial={{ opacity: 0, x: -20 }}
                 transition={{ duration: 1.5 }}
@@ -203,7 +210,7 @@ function Services() {
               <div className="d-md-block">
                 <motion.img
                   className="img-fluid"
-                  src="client/styles/images/combo1.png"
+                  src={combo}
                   alt="Father holding son's hand"
                   initial={{ opacity: 0, x: 20 }}
                   transition={{ duration: 1.5 }}
