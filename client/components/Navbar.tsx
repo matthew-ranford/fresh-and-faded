@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar'
 import { motion, animate, stagger } from 'framer-motion'
 import { useState } from 'react'
 
+import logo from '../styles/images/barber-card-logo.png'
+
 const containerVariants = {
   hidden: {
     y: -500,
@@ -61,7 +63,7 @@ function Navigation() {
               variants={containerVariants}
               initial="hidden"
               animate="visible"
-              src="client/styles/images/barber-card-logo.png"
+              src={logo}
               className="d-inline-block align-top"
               alt="Barber logo"
             />
