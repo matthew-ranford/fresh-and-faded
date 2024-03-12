@@ -26,7 +26,7 @@ function Contact() {
               width={'1000px'}
               alt="Fresh & Faded Barbershop"
             />
-            <p className="lead text-dark pt-4">
+            <p className="lead text-dark pt-4 pb-4">
               Questions? Fill out the form to contact me directly!
             </p>
           </motion.div>
