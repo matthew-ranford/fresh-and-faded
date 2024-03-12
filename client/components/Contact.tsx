@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
 
+import contactHeader from '../styles/images/contact.png'
+
 const buttonHoverVariant = {
   hover: {
     scale: [1, 1.2, 1, 1.2, 1],
@@ -21,7 +23,7 @@ function Contact() {
           >
             <motion.img
               className="responsive-img"
-              src="client/styles/images/contact.png"
+              src={contactHeader}
               height={'auto'}
               width={'1000px'}
               alt="Fresh & Faded Barbershop"
