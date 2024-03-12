@@ -5,9 +5,11 @@
   "description": "React!",
   "repository": "https://github.com/dev-academy-challenges/react-boilerplate.git",
   "main": "server/index.js",
+  "homepage": "https://matthew-ranford,github.io/fresh-and-faded",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "vitest",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
