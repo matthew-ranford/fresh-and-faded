@@ -68,7 +68,7 @@ function Navigation() {
               alt="Barber logo"
             />
           </Navbar.Brand>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/fresh-and-faded">
             <motion.div
               className="nav-header-font-change lead"
               variants={containerVariants}
