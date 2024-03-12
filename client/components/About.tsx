@@ -2,6 +2,11 @@ import { motion } from 'framer-motion'
 import Barbers from './Barbers'
 import { Carousel } from 'react-bootstrap'
 
+import logo from '../styles/images/barber-card-logo.png'
+import van from '../styles/images/van-company-logo.png'
+import barbershop from '../styles/images/barbershop-shop.png'
+import aboutHeader from '../styles/images/about-header-image.png'
+
 const buttonHoverVariant = {
   hover: {
     scale: [1, 1.2, 1, 1.2, 1],
@@ -36,7 +41,7 @@ function About() {
                         whileInView={{ y: 0, opacity: 1 }}
                         className="img-fluid"
                         style={{ borderRadius: '50%' }}
-                        src="client/styles/images/barber-card-logo.png"
+                        src={logo}
                         alt="Barbershop card"
                         text="Company card"
                       />
@@ -48,7 +53,7 @@ function About() {
                         whileInView={{ y: 0, opacity: 1 }}
                         className="img-fluid"
                         style={{ borderRadius: '50%' }}
-                        src="client/styles/images/van-company-logo.png"
+                        src={van}
                         alt="Barbershop van"
                         text="Company card"
                       />
@@ -60,7 +65,7 @@ function About() {
                         whileInView={{ y: 0, opacity: 1 }}
                         className="img-fluid"
                         style={{ borderRadius: '50%' }}
-                        src="client/styles/images/barbershop-shop.png"
+                        src={barbershop}
                         alt="Barbershop building"
                         text="Company card"
                       />
@@ -109,7 +114,7 @@ function About() {
                       >
                         <motion.img
                           className="about-img"
-                          src="client/styles/images/about-header-image.png"
+                          src={aboutHeader}
                           height={'auto'}
                           width={'450px'}
                           alt="Fresh & Faded Barbershop"
